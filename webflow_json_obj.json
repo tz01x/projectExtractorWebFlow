@@ -1,0 +1,1537 @@
+{
+    "fonts": [],
+    "css": ".container {\n  min-height: 100vh;\n  border-style: solid;\n  border-width: 1px;\n  border-color: #fff;\n  background-color: #121210;\n}\n\n.section {\n  margin-top: 20px;\n  margin-bottom: 20px;\n  background-color: #e5dcdc;\n}\n\n.text-block {\n  font-size: 50px;\n}\n\n.text-block-2 {\n  overflow: visible;\n  margin-left: 25px;\n  font-family: 'Changa One', Impact, sans-serif;\n  font-size: 50px;\n}\n\n.columns {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  min-height: 50px;\n  margin-right: auto;\n  margin-left: 0px;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  -ms-flex-align: center;\n  align-items: center;\n  background-color: #fff6f6;\n}\n\n.list {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: row;\n  -ms-flex-direction: row;\n  flex-direction: row;\n  -webkit-justify-content: space-around;\n  -ms-flex-pack: distribute;\n  justify-content: space-around;\n  list-style-type: none;\n}\n\n.card {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  width: 300px;\n  height: 320px;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: column;\n  -ms-flex-direction: column;\n  flex-direction: column;\n  -webkit-box-pack: start;\n  -webkit-justify-content: flex-start;\n  -ms-flex-pack: start;\n  justify-content: flex-start;\n  border-radius: 15px;\n  background-color: rgba(36, 34, 34, 0.68);\n  box-shadow: -5px 6px 12px -3px #3f3b3b;\n  -webkit-transition: opacity 50ms ease;\n  transition: opacity 50ms ease;\n  mix-blend-mode: difference;\n}\n\n.heading {\n  margin-top: 0px;\n  padding-top: 20px;\n  padding-right: 10px;\n  padding-left: 10px;\n  color: #fff;\n}\n\n.paragraph {\n  overflow: hidden;\n  height: 100%;\n  padding-right: 10px;\n  padding-left: 10px;\n  color: hsla(0, 0%, 100%, 0.72);\n  font-size: 16px;\n  -o-object-fit: fill;\n  object-fit: fill;\n}\n\n.cardiconlink {\n  display: block;\n  width: 32px;\n  height: auto;\n  margin-bottom: 29px;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: row;\n  -ms-flex-direction: row;\n  flex-direction: row;\n  -webkit-box-pack: end;\n  -webkit-justify-content: flex-end;\n  -ms-flex-pack: end;\n  justify-content: flex-end;\n  -webkit-box-align: start;\n  -webkit-align-items: flex-start;\n  -ms-flex-align: start;\n  align-items: flex-start;\n  -ms-grid-row-align: center;\n  align-self: center;\n  -webkit-box-ordinal-group: 1;\n  -webkit-order: 0;\n  -ms-flex-order: 0;\n  order: 0;\n  -webkit-box-flex: 0;\n  -webkit-flex: 0 auto;\n  -ms-flex: 0 auto;\n  flex: 0 auto;\n  grid-column-gap: 0px;\n  grid-row-gap: 0px;\n}\n\n.cardfooter {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  height: 104px;\n  padding-top: 0px;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n  -webkit-flex-direction: row;\n  -ms-flex-direction: row;\n  flex-direction: row;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  -ms-flex-align: center;\n  align-items: center;\n  -webkit-box-ordinal-group: 2;\n  -webkit-order: 1;\n  -ms-flex-order: 1;\n  order: 1;\n  -webkit-box-flex: 0;\n  -webkit-flex: 0 auto;\n  -ms-flex: 0 auto;\n  flex: 0 auto;\n  grid-column-gap: 10px;\n  grid-row-gap: 10px;\n  border-bottom-left-radius: 10px;\n  border-bottom-right-radius: 10px;\n}\n\n.liveicon {\n  background-color: transparent;\n  -webkit-filter: invert(100%);\n  filter: invert(100%);\n}\n\n.link-block {\n  cursor: pointer;\n}\n\n.link-block-2 {\n  cursor: pointer;\n}\n\n.cardssection {\n  display: -webkit-box;\n  display: -webkit-flex;\n  display: -ms-flexbox;\n  display: flex;\n  margin-top: 40px;\n  margin-bottom: 40px;\n  -webkit-box-pack: center;\n  -webkit-justify-content: center;\n  -ms-flex-pack: center;\n  justify-content: center;\n  -webkit-flex-wrap: wrap;\n  -ms-flex-wrap: wrap;\n  flex-wrap: wrap;\n  -webkit-box-align: center;\n  -webkit-align-items: center;\n  -ms-flex-align: center;\n  align-items: center;\n  grid-column-gap: 15px;\n  grid-row-gap: 15px;\n}\n\n@media screen and (max-width: 479px) {\n  .list {\n    display: none;\n  }\n}",
+    "cssFileName": "garin-alis-exceptional-site.webflow.css",
+    "cssBaseFileName": "webflow.css",
+    "cssNormalize": "/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */\n/**\n * 1. Set default font family to sans-serif.\n * 2. Prevent iOS and IE text size adjust after device orientation change,\n *    without disabling user zoom.\n */\nhtml {\n  font-family: sans-serif;\n  /* 1 */\n  -ms-text-size-adjust: 100%;\n  /* 2 */\n  -webkit-text-size-adjust: 100%;\n  /* 2 */\n}\n/**\n * Remove default margin.\n */\nbody {\n  margin: 0;\n}\n/* HTML5 display definitions\n   ========================================================================== */\n/**\n * Correct `block` display not defined for any HTML5 element in IE 8/9.\n * Correct `block` display not defined for `details` or `summary` in IE 10/11\n * and Firefox.\n * Correct `block` display not defined for `main` in IE 11.\n */\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmain,\nmenu,\nnav,\nsection,\nsummary {\n  display: block;\n}\n/**\n * 1. Correct `inline-block` display not defined in IE 8/9.\n * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.\n */\naudio,\ncanvas,\nprogress,\nvideo {\n  display: inline-block;\n  /* 1 */\n  vertical-align: baseline;\n  /* 2 */\n}\n/**\n * Prevent modern browsers from displaying `audio` without controls.\n * Remove excess height in iOS 5 devices.\n */\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n/**\n * Address `[hidden]` styling not present in IE 8/9/10.\n * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.\n */\n[hidden],\ntemplate {\n  display: none;\n}\n/* Links\n   ========================================================================== */\n/**\n * Remove the gray background color from active links in IE 10.\n */\na {\n  background-color: transparent;\n}\n/**\n * Improve readability of focused elements when they are also in an\n * active/hover state.\n */\na:active,\na:hover {\n  outline: 0;\n}\n/* Text-level semantics\n   ========================================================================== */\n/**\n * Address styling not present in IE 8/9/10/11, Safari, and Chrome.\n */\nabbr[title] {\n  border-bottom: 1px dotted;\n}\n/**\n * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.\n */\nb,\nstrong {\n  font-weight: bold;\n}\n/**\n * Address styling not present in Safari and Chrome.\n */\ndfn {\n  font-style: italic;\n}\n/**\n * Address variable `h1` font-size and margin within `section` and `article`\n * contexts in Firefox 4+, Safari, and Chrome.\n */\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\n/**\n * Address styling not present in IE 8/9.\n */\nmark {\n  background: #ff0;\n  color: #000;\n}\n/**\n * Address inconsistent and variable font size in all browsers.\n */\nsmall {\n  font-size: 80%;\n}\n/**\n * Prevent `sub` and `sup` affecting `line-height` in all browsers.\n */\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\nsup {\n  top: -0.5em;\n}\nsub {\n  bottom: -0.25em;\n}\n/* Embedded content\n   ========================================================================== */\n/**\n * Remove border when inside `a` element in IE 8/9/10.\n */\nimg {\n  border: 0;\n}\n/**\n * Correct overflow not hidden in IE 9/10/11.\n */\nsvg:not(:root) {\n  overflow: hidden;\n}\n/* Grouping content\n   ========================================================================== */\n/**\n * Address margin not present in IE 8/9 and Safari.\n */\nfigure {\n  margin: 1em 40px;\n}\n/**\n * Address differences between Firefox and other browsers.\n */\nhr {\n  box-sizing: content-box;\n  height: 0;\n}\n/**\n * Contain overflow in all browsers.\n */\npre {\n  overflow: auto;\n}\n/**\n * Address odd `em`-unit font size rendering in all browsers.\n */\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, monospace;\n  font-size: 1em;\n}\n/* Forms\n   ========================================================================== */\n/**\n * Known limitation: by default, Chrome and Safari on OS X allow very limited\n * styling of `select`, unless a `border` property is set.\n */\n/**\n * 1. Correct color not being inherited.\n *    Known issue: affects color of disabled elements.\n * 2. Correct font properties not being inherited.\n * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.\n */\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  color: inherit;\n  /* 1 */\n  font: inherit;\n  /* 2 */\n  margin: 0;\n  /* 3 */\n}\n/**\n * Address `overflow` set to `hidden` in IE 8/9/10/11.\n */\nbutton {\n  overflow: visible;\n}\n/**\n * Address inconsistent `text-transform` inheritance for `button` and `select`.\n * All other form control elements do not inherit `text-transform` values.\n * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.\n * Correct `select` style inheritance in Firefox.\n */\nbutton,\nselect {\n  text-transform: none;\n}\n/**\n * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`\n *    and `video` controls.\n * 2. Correct inability to style clickable `input` types in iOS.\n * 3. Improve usability and consistency of cursor style between image-type\n *    `input` and others.\n * 4. CUSTOM FOR WEBFLOW: Removed the input[type=\"submit\"] selector to reduce\n *    specificity and defer to the .w-button selector\n */\nbutton,\nhtml input[type=\"button\"],\ninput[type=\"reset\"] {\n  -webkit-appearance: button;\n  /* 2 */\n  cursor: pointer;\n  /* 3 */\n}\n/**\n * Re-set default cursor for disabled elements.\n */\nbutton[disabled],\nhtml input[disabled] {\n  cursor: default;\n}\n/**\n * Remove inner padding and border in Firefox 4+.\n */\nbutton::-moz-focus-inner,\ninput::-moz-focus-inner {\n  border: 0;\n  padding: 0;\n}\n/**\n * Address Firefox 4+ setting `line-height` on `input` using `!important` in\n * the UA stylesheet.\n */\ninput {\n  line-height: normal;\n}\n/**\n * It's recommended that you don't attempt to style these elements.\n * Firefox's implementation doesn't respect box-sizing, padding, or width.\n *\n * 1. Address box sizing set to `content-box` in IE 8/9/10.\n * 2. Remove excess padding in IE 8/9/10.\n */\ninput[type='checkbox'],\ninput[type='radio'] {\n  box-sizing: border-box;\n  /* 1 */\n  padding: 0;\n  /* 2 */\n}\n/**\n * Fix the cursor style for Chrome's increment/decrement buttons. For certain\n * `font-size` values of the `input`, it causes the cursor style of the\n * decrement button to change from `default` to `text`.\n */\ninput[type='number']::-webkit-inner-spin-button,\ninput[type='number']::-webkit-outer-spin-button {\n  height: auto;\n}\n/**\n * 1. CUSTOM FOR WEBFLOW: changed from `textfield` to `none` to normalize iOS rounded input\n * 2. CUSTOM FOR WEBFLOW: box-sizing: content-box rule removed\n *    (similar to normalize.css >=4.0.0)\n */\ninput[type='search'] {\n  -webkit-appearance: none;\n  /* 1 */\n}\n/**\n * Remove inner padding and search cancel button in Safari and Chrome on OS X.\n * Safari (but not Chrome) clips the cancel button when the search input has\n * padding (and `textfield` appearance).\n */\ninput[type='search']::-webkit-search-cancel-button,\ninput[type='search']::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n/**\n * Define consistent border, margin, and padding.\n */\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\n/**\n * 1. Correct `color` not being inherited in IE 8/9/10/11.\n * 2. Remove padding so people aren't caught out if they zero out fieldsets.\n */\nlegend {\n  border: 0;\n  /* 1 */\n  padding: 0;\n  /* 2 */\n}\n/**\n * Remove default vertical scrollbar in IE 8/9/10/11.\n */\ntextarea {\n  overflow: auto;\n}\n/**\n * Don't inherit the `font-weight` (applied by a rule above).\n * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.\n */\noptgroup {\n  font-weight: bold;\n}\n/* Tables\n   ========================================================================== */\n/**\n * Remove most spacing between table cells.\n */\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\ntd,\nth {\n  padding: 0;\n}\n",
+    "siteJs": "/*!\n * Webflow: Front-end site library\n * @license MIT\n * Inline scripts may access the api using an async handler:\n *   var Webflow = Webflow || [];\n *   Webflow.push(readyFunction);\n */!function(t){var e={};function n(i){if(e[i])return e[i].exports;var r=e[i]={i:i,l:!1,exports:{}};return t[i].call(r.exports,r,r.exports,n),r.l=!0,r.exports}n.m=t,n.c=e,n.d=function(t,e,i){n.o(t,e)||Object.defineProperty(t,e,{enumerable:!0,get:i})},n.r=function(t){\"undefined\"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:\"Module\"}),Object.defineProperty(t,\"__esModule\",{value:!0})},n.t=function(t,e){if(1&e&&(t=n(t)),8&e)return t;if(4&e&&\"object\"==typeof t&&t&&t.__esModule)return t;var i=Object.create(null);if(n.r(i),Object.defineProperty(i,\"default\",{enumerable:!0,value:t}),2&e&&\"string\"!=typeof t)for(var r in t)n.d(i,r,function(e){return t[e]}.bind(null,r));return i},n.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return n.d(e,\"a\",e),e},n.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},n.p=\"\",n(n.s=2)}([function(t,e,n){\"use strict\";var i={},r={},o=[],a=window.Webflow||[],s=window.jQuery,u=s(window),c=s(document),f=s.isFunction,l=i._=n(4),h=i.tram=n(1)&&s.tram,d=!1,p=!1;function v(t){i.env()&&(f(t.design)&&u.on(\"__wf_design\",t.design),f(t.preview)&&u.on(\"__wf_preview\",t.preview)),f(t.destroy)&&u.on(\"__wf_destroy\",t.destroy),t.ready&&f(t.ready)&&function(t){if(d)return void t.ready();if(l.contains(o,t.ready))return;o.push(t.ready)}(t)}function m(t){f(t.design)&&u.off(\"__wf_design\",t.design),f(t.preview)&&u.off(\"__wf_preview\",t.preview),f(t.destroy)&&u.off(\"__wf_destroy\",t.destroy),t.ready&&f(t.ready)&&function(t){o=l.filter(o,function(e){return e!==t.ready})}(t)}h.config.hideBackface=!1,h.config.keepInherited=!0,i.define=function(t,e,n){r[t]&&m(r[t]);var i=r[t]=e(s,l,n)||{};return v(i),i},i.require=function(t){return r[t]},i.push=function(t){d?f(t)&&t():a.push(t)},i.env=function(t){var e=window.__wf_design,n=void 0!==e;return t?\"design\"===t?n&&e:\"preview\"===t?n&&!e:\"slug\"===t?n&&window.__wf_slug:\"editor\"===t?window.WebflowEditor:\"test\"===t?window.__wf_test:\"frame\"===t?window!==window.top:void 0:n};var w,b=navigator.userAgent.toLowerCase(),g=i.env.touch=\"ontouchstart\"in window||window.DocumentTouch&&document instanceof window.DocumentTouch,y=i.env.chrome=/chrome/.test(b)&&/Google/.test(navigator.vendor)&&parseInt(b.match(/chrome\\/(\\d+)\\./)[1],10),x=i.env.ios=/(ipod|iphone|ipad)/.test(b);i.env.safari=/safari/.test(b)&&!y&&!x,g&&c.on(\"touchstart mousedown\",function(t){w=t.target}),i.validClick=g?function(t){return t===w||s.contains(t,w)}:function(){return!0};var _,k=\"resize.webflow orientationchange.webflow load.webflow\";function E(t,e){var n=[],i={};return i.up=l.throttle(function(t){l.each(n,function(e){e(t)})}),t&&e&&t.on(e,i.up),i.on=function(t){\"function\"==typeof t&&(l.contains(n,t)||n.push(t))},i.off=function(t){n=arguments.length?l.filter(n,function(e){return e!==t}):[]},i}function L(t){f(t)&&t()}function A(){_&&(_.reject(),u.off(\"load\",_.resolve)),_=new s.Deferred,u.on(\"load\",_.resolve)}i.resize=E(u,k),i.scroll=E(u,\"scroll.webflow resize.webflow orientationchange.webflow load.webflow\"),i.redraw=E(),i.location=function(t){window.location=t},i.env()&&(i.location=function(){}),i.ready=function(){d=!0,p?(p=!1,l.each(r,v)):l.each(o,L),l.each(a,L),i.resize.up()},i.load=function(t){_.then(t)},i.destroy=function(t){t=t||{},p=!0,u.triggerHandler(\"__wf_destroy\"),null!=t.domready&&(d=t.domready),l.each(r,m),i.resize.off(),i.scroll.off(),i.redraw.off(),o=[],a=[],\"pending\"===_.state()&&A()},s(i.ready),A(),t.exports=window.Webflow=i},function(t,e,n){\"use strict\";var i=n(5)(n(6));window.tram=function(t){function e(t,e){return(new N.Bare).init(t,e)}function n(t){return t.replace(/[A-Z]/g,function(t){return\"-\"+t.toLowerCase()})}function r(t){var e=parseInt(t.slice(1),16);return[e>>16&255,e>>8&255,255&e]}function o(t,e,n){return\"#\"+(1<<24|t<<16|e<<8|n).toString(16).slice(1)}function a(){}function s(t,e,n){c(\"Units do not match [\"+t+\"]: \"+e+\", \"+n)}function u(t,e,n){if(void 0!==e&&(n=e),void 0===t)return n;var i=n;return Q.test(t)||!V.test(t)?i=parseInt(t,10):V.test(t)&&(i=1e3*parseFloat(t)),0>i&&(i=0),i==i?i:n}function c(t){X.debug&&window&&window.console.warn(t)}var f=function(t,e,n){function r(t){return\"object\"==(0,i.default)(t)}function o(t){return\"function\"==typeof t}function a(){}return function i(s,u){function c(){var t=new f;return o(t.init)&&t.init.apply(t,arguments),t}function f(){}u===n&&(u=s,s=Object),c.Bare=f;var l,h=a[t]=s[t],d=f[t]=c[t]=new a;return d.constructor=c,c.mixin=function(e){return f[t]=c[t]=i(c,e)[t],c},c.open=function(t){if(l={},o(t)?l=t.call(c,d,h,c,s):r(t)&&(l=t),r(l))for(var n in l)e.call(l,n)&&(d[n]=l[n]);return o(d.init)||(d.init=s),c},c.open(u)}}(\"prototype\",{}.hasOwnProperty),l={ease:[\"ease\",function(t,e,n,i){var r=(t/=i)*t,o=r*t;return e+n*(-2.75*o*r+11*r*r+-15.5*o+8*r+.25*t)}],\"ease-in\":[\"ease-in\",function(t,e,n,i){var r=(t/=i)*t,o=r*t;return e+n*(-1*o*r+3*r*r+-3*o+2*r)}],\"ease-out\":[\"ease-out\",function(t,e,n,i){var r=(t/=i)*t,o=r*t;return e+n*(.3*o*r+-1.6*r*r+2.2*o+-1.8*r+1.9*t)}],\"ease-in-out\":[\"ease-in-out\",function(t,e,n,i){var r=(t/=i)*t,o=r*t;return e+n*(2*o*r+-5*r*r+2*o+2*r)}],linear:[\"linear\",function(t,e,n,i){return n*t/i+e}],\"ease-in-quad\":[\"cubic-bezier(0.550, 0.085, 0.680, 0.530)\",function(t,e,n,i){return n*(t/=i)*t+e}],\"ease-out-quad\":[\"cubic-bezier(0.250, 0.460, 0.450, 0.940)\",function(t,e,n,i){return-n*(t/=i)*(t-2)+e}],\"ease-in-out-quad\":[\"cubic-bezier(0.455, 0.030, 0.515, 0.955)\",function(t,e,n,i){return(t/=i/2)<1?n/2*t*t+e:-n/2*(--t*(t-2)-1)+e}],\"ease-in-cubic\":[\"cubic-bezier(0.550, 0.055, 0.675, 0.190)\",function(t,e,n,i){return n*(t/=i)*t*t+e}],\"ease-out-cubic\":[\"cubic-bezier(0.215, 0.610, 0.355, 1)\",function(t,e,n,i){return n*((t=t/i-1)*t*t+1)+e}],\"ease-in-out-cubic\":[\"cubic-bezier(0.645, 0.045, 0.355, 1)\",function(t,e,n,i){return(t/=i/2)<1?n/2*t*t*t+e:n/2*((t-=2)*t*t+2)+e}],\"ease-in-quart\":[\"cubic-bezier(0.895, 0.030, 0.685, 0.220)\",function(t,e,n,i){return n*(t/=i)*t*t*t+e}],\"ease-out-quart\":[\"cubic-bezier(0.165, 0.840, 0.440, 1)\",function(t,e,n,i){return-n*((t=t/i-1)*t*t*t-1)+e}],\"ease-in-out-quart\":[\"cubic-bezier(0.770, 0, 0.175, 1)\",function(t,e,n,i){return(t/=i/2)<1?n/2*t*t*t*t+e:-n/2*((t-=2)*t*t*t-2)+e}],\"ease-in-quint\":[\"cubic-bezier(0.755, 0.050, 0.855, 0.060)\",function(t,e,n,i){return n*(t/=i)*t*t*t*t+e}],\"ease-out-quint\":[\"cubic-bezier(0.230, 1, 0.320, 1)\",function(t,e,n,i){return n*((t=t/i-1)*t*t*t*t+1)+e}],\"ease-in-out-quint\":[\"cubic-bezier(0.860, 0, 0.070, 1)\",function(t,e,n,i){return(t/=i/2)<1?n/2*t*t*t*t*t+e:n/2*((t-=2)*t*t*t*t+2)+e}],\"ease-in-sine\":[\"cubic-bezier(0.470, 0, 0.745, 0.715)\",function(t,e,n,i){return-n*Math.cos(t/i*(Math.PI/2))+n+e}],\"ease-out-sine\":[\"cubic-bezier(0.390, 0.575, 0.565, 1)\",function(t,e,n,i){return n*Math.sin(t/i*(Math.PI/2))+e}],\"ease-in-out-sine\":[\"cubic-bezier(0.445, 0.050, 0.550, 0.950)\",function(t,e,n,i){return-n/2*(Math.cos(Math.PI*t/i)-1)+e}],\"ease-in-expo\":[\"cubic-bezier(0.950, 0.050, 0.795, 0.035)\",function(t,e,n,i){return 0===t?e:n*Math.pow(2,10*(t/i-1))+e}],\"ease-out-expo\":[\"cubic-bezier(0.190, 1, 0.220, 1)\",function(t,e,n,i){return t===i?e+n:n*(1-Math.pow(2,-10*t/i))+e}],\"ease-in-out-expo\":[\"cubic-bezier(1, 0, 0, 1)\",function(t,e,n,i){return 0===t?e:t===i?e+n:(t/=i/2)<1?n/2*Math.pow(2,10*(t-1))+e:n/2*(2-Math.pow(2,-10*--t))+e}],\"ease-in-circ\":[\"cubic-bezier(0.600, 0.040, 0.980, 0.335)\",function(t,e,n,i){return-n*(Math.sqrt(1-(t/=i)*t)-1)+e}],\"ease-out-circ\":[\"cubic-bezier(0.075, 0.820, 0.165, 1)\",function(t,e,n,i){return n*Math.sqrt(1-(t=t/i-1)*t)+e}],\"ease-in-out-circ\":[\"cubic-bezier(0.785, 0.135, 0.150, 0.860)\",function(t,e,n,i){return(t/=i/2)<1?-n/2*(Math.sqrt(1-t*t)-1)+e:n/2*(Math.sqrt(1-(t-=2)*t)+1)+e}],\"ease-in-back\":[\"cubic-bezier(0.600, -0.280, 0.735, 0.045)\",function(t,e,n,i,r){return void 0===r&&(r=1.70158),n*(t/=i)*t*((r+1)*t-r)+e}],\"ease-out-back\":[\"cubic-bezier(0.175, 0.885, 0.320, 1.275)\",function(t,e,n,i,r){return void 0===r&&(r=1.70158),n*((t=t/i-1)*t*((r+1)*t+r)+1)+e}],\"ease-in-out-back\":[\"cubic-bezier(0.680, -0.550, 0.265, 1.550)\",function(t,e,n,i,r){return void 0===r&&(r=1.70158),(t/=i/2)<1?n/2*t*t*((1+(r*=1.525))*t-r)+e:n/2*((t-=2)*t*((1+(r*=1.525))*t+r)+2)+e}]},h={\"ease-in-back\":\"cubic-bezier(0.600, 0, 0.735, 0.045)\",\"ease-out-back\":\"cubic-bezier(0.175, 0.885, 0.320, 1)\",\"ease-in-out-back\":\"cubic-bezier(0.680, 0, 0.265, 1)\"},d=document,p=window,v=\"bkwld-tram\",m=/[\\-\\.0-9]/g,w=/[A-Z]/,b=\"number\",g=/^(rgb|#)/,y=/(em|cm|mm|in|pt|pc|px)$/,x=/(em|cm|mm|in|pt|pc|px|%)$/,_=/(deg|rad|turn)$/,k=\"unitless\",E=/(all|none) 0s ease 0s/,L=/^(width|height)$/,A=\" \",S=d.createElement(\"a\"),z=[\"Webkit\",\"Moz\",\"O\",\"ms\"],$=[\"-webkit-\",\"-moz-\",\"-o-\",\"-ms-\"],M=function(t){if(t in S.style)return{dom:t,css:t};var e,n,i=\"\",r=t.split(\"-\");for(e=0;e<r.length;e++)i+=r[e].charAt(0).toUpperCase()+r[e].slice(1);for(e=0;e<z.length;e++)if((n=z[e]+i)in S.style)return{dom:n,css:$[e]+t}},q=e.support={bind:Function.prototype.bind,transform:M(\"transform\"),transition:M(\"transition\"),backface:M(\"backface-visibility\"),timing:M(\"transition-timing-function\")};if(q.transition){var T=q.timing.dom;if(S.style[T]=l[\"ease-in-back\"][0],!S.style[T])for(var j in h)l[j][0]=h[j]}var O=e.frame=function(){var t=p.requestAnimationFrame||p.webkitRequestAnimationFrame||p.mozRequestAnimationFrame||p.oRequestAnimationFrame||p.msRequestAnimationFrame;return t&&q.bind?t.bind(p):function(t){p.setTimeout(t,16)}}(),F=e.now=function(){var t=p.performance,e=t&&(t.now||t.webkitNow||t.msNow||t.mozNow);return e&&q.bind?e.bind(t):Date.now||function(){return+new Date}}(),C=f(function(e){function r(t,e){var n=function(t){for(var e=-1,n=t?t.length:0,i=[];++e<n;){var r=t[e];r&&i.push(r)}return i}((\"\"+t).split(A)),i=n[0];e=e||{};var r=Y[i];if(!r)return c(\"Unsupported property: \"+i);if(!e.weak||!this.props[i]){var o=r[0],a=this.props[i];return a||(a=this.props[i]=new o.Bare),a.init(this.$el,n,r,e),a}}function o(t,e,n){if(t){var o=(0,i.default)(t);if(e||(this.timer&&this.timer.destroy(),this.queue=[],this.active=!1),\"number\"==o&&e)return this.timer=new W({duration:t,context:this,complete:a}),void(this.active=!0);if(\"string\"==o&&e){switch(t){case\"hide\":f.call(this);break;case\"stop\":s.call(this);break;case\"redraw\":l.call(this);break;default:r.call(this,t,n&&n[1])}return a.call(this)}if(\"function\"==o)return void t.call(this,this);if(\"object\"==o){var c=0;d.call(this,t,function(t,e){t.span>c&&(c=t.span),t.stop(),t.animate(e)},function(t){\"wait\"in t&&(c=u(t.wait,0))}),h.call(this),c>0&&(this.timer=new W({duration:c,context:this}),this.active=!0,e&&(this.timer.complete=a));var p=this,v=!1,m={};O(function(){d.call(p,t,function(t){t.active&&(v=!0,m[t.name]=t.nextStyle)}),v&&p.$el.css(m)})}}}function a(){if(this.timer&&this.timer.destroy(),this.active=!1,this.queue.length){var t=this.queue.shift();o.call(this,t.options,!0,t.args)}}function s(t){var e;this.timer&&this.timer.destroy(),this.queue=[],this.active=!1,\"string\"==typeof t?(e={})[t]=1:e=\"object\"==(0,i.default)(t)&&null!=t?t:this.props,d.call(this,e,p),h.call(this)}function f(){s.call(this),this.el.style.display=\"none\"}function l(){this.el.offsetHeight}function h(){var t,e,n=[];for(t in this.upstream&&n.push(this.upstream),this.props)(e=this.props[t]).active&&n.push(e.string);n=n.join(\",\"),this.style!==n&&(this.style=n,this.el.style[q.transition.dom]=n)}function d(t,e,i){var o,a,s,u,c=e!==p,f={};for(o in t)s=t[o],o in Z?(f.transform||(f.transform={}),f.transform[o]=s):(w.test(o)&&(o=n(o)),o in Y?f[o]=s:(u||(u={}),u[o]=s));for(o in f){if(s=f[o],!(a=this.props[o])){if(!c)continue;a=r.call(this,o)}e.call(this,a,s)}i&&u&&i.call(this,u)}function p(t){t.stop()}function m(t,e){t.set(e)}function b(t){this.$el.css(t)}function g(t,n){e[t]=function(){return this.children?function(t,e){var n,i=this.children.length;for(n=0;i>n;n++)t.apply(this.children[n],e);return this}.call(this,n,arguments):(this.el&&n.apply(this,arguments),this)}}e.init=function(e){if(this.$el=t(e),this.el=this.$el[0],this.props={},this.queue=[],this.style=\"\",this.active=!1,X.keepInherited&&!X.fallback){var n=K(this.el,\"transition\");n&&!E.test(n)&&(this.upstream=n)}q.backface&&X.hideBackface&&G(this.el,q.backface.css,\"hidden\")},g(\"add\",r),g(\"start\",o),g(\"wait\",function(t){t=u(t,0),this.active?this.queue.push({options:t}):(this.timer=new W({duration:t,context:this,complete:a}),this.active=!0)}),g(\"then\",function(t){return this.active?(this.queue.push({options:t,args:arguments}),void(this.timer.complete=a)):c(\"No active transition timer. Use start() or wait() before then().\")}),g(\"next\",a),g(\"stop\",s),g(\"set\",function(t){s.call(this,t),d.call(this,t,m,b)}),g(\"show\",function(t){\"string\"!=typeof t&&(t=\"block\"),this.el.style.display=t}),g(\"hide\",f),g(\"redraw\",l),g(\"destroy\",function(){s.call(this),t.removeData(this.el,v),this.$el=this.el=null})}),N=f(C,function(e){function n(e,n){var i=t.data(e,v)||t.data(e,v,new C.Bare);return i.el||i.init(e),n?i.start(n):i}e.init=function(e,i){var r=t(e);if(!r.length)return this;if(1===r.length)return n(r[0],i);var o=[];return r.each(function(t,e){o.push(n(e,i))}),this.children=o,this}}),I=f(function(t){function e(){var t=this.get();this.update(\"auto\");var e=this.get();return this.update(t),e}function n(t){var e=/rgba?\\((\\d+),\\s*(\\d+),\\s*(\\d+)/.exec(t);return(e?o(e[1],e[2],e[3]):t).replace(/#(\\w)(\\w)(\\w)$/,\"#$1$1$2$2$3$3\")}var r=500,a=\"ease\",s=0;t.init=function(t,e,n,i){this.$el=t,this.el=t[0];var o=e[0];n[2]&&(o=n[2]),U[o]&&(o=U[o]),this.name=o,this.type=n[1],this.duration=u(e[1],this.duration,r),this.ease=function(t,e,n){return void 0!==e&&(n=e),t in l?t:n}(e[2],this.ease,a),this.delay=u(e[3],this.delay,s),this.span=this.duration+this.delay,this.active=!1,this.nextStyle=null,this.auto=L.test(this.name),this.unit=i.unit||this.unit||X.defaultUnit,this.angle=i.angle||this.angle||X.defaultAngle,X.fallback||i.fallback?this.animate=this.fallback:(this.animate=this.transition,this.string=this.name+A+this.duration+\"ms\"+(\"ease\"!=this.ease?A+l[this.ease][0]:\"\")+(this.delay?A+this.delay+\"ms\":\"\"))},t.set=function(t){t=this.convert(t,this.type),this.update(t),this.redraw()},t.transition=function(t){this.active=!0,t=this.convert(t,this.type),this.auto&&(\"auto\"==this.el.style[this.name]&&(this.update(this.get()),this.redraw()),\"auto\"==t&&(t=e.call(this))),this.nextStyle=t},t.fallback=function(t){var n=this.el.style[this.name]||this.convert(this.get(),this.type);t=this.convert(t,this.type),this.auto&&(\"auto\"==n&&(n=this.convert(this.get(),this.type)),\"auto\"==t&&(t=e.call(this))),this.tween=new D({from:n,to:t,duration:this.duration,delay:this.delay,ease:this.ease,update:this.update,context:this})},t.get=function(){return K(this.el,this.name)},t.update=function(t){G(this.el,this.name,t)},t.stop=function(){(this.active||this.nextStyle)&&(this.active=!1,this.nextStyle=null,G(this.el,this.name,this.get()));var t=this.tween;t&&t.context&&t.destroy()},t.convert=function(t,e){if(\"auto\"==t&&this.auto)return t;var r,o=\"number\"==typeof t,a=\"string\"==typeof t;switch(e){case b:if(o)return t;if(a&&\"\"===t.replace(m,\"\"))return+t;r=\"number(unitless)\";break;case g:if(a){if(\"\"===t&&this.original)return this.original;if(e.test(t))return\"#\"==t.charAt(0)&&7==t.length?t:n(t)}r=\"hex or rgb string\";break;case y:if(o)return t+this.unit;if(a&&e.test(t))return t;r=\"number(px) or string(unit)\";break;case x:if(o)return t+this.unit;if(a&&e.test(t))return t;r=\"number(px) or string(unit or %)\";break;case _:if(o)return t+this.angle;if(a&&e.test(t))return t;r=\"number(deg) or string(angle)\";break;case k:if(o)return t;if(a&&x.test(t))return t;r=\"number(unitless) or string(unit or %)\"}return function(t,e){c(\"Type warning: Expected: [\"+t+\"] Got: [\"+(0,i.default)(e)+\"] \"+e)}(r,t),t},t.redraw=function(){this.el.offsetHeight}}),P=f(I,function(t,e){t.init=function(){e.init.apply(this,arguments),this.original||(this.original=this.convert(this.get(),g))}}),R=f(I,function(t,e){t.init=function(){e.init.apply(this,arguments),this.animate=this.fallback},t.get=function(){return this.$el[this.name]()},t.update=function(t){this.$el[this.name](t)}}),B=f(I,function(t,e){function n(t,e){var n,i,r,o,a;for(n in t)r=(o=Z[n])[0],i=o[1]||n,a=this.convert(t[n],r),e.call(this,i,a,r)}t.init=function(){e.init.apply(this,arguments),this.current||(this.current={},Z.perspective&&X.perspective&&(this.current.perspective=X.perspective,G(this.el,this.name,this.style(this.current)),this.redraw()))},t.set=function(t){n.call(this,t,function(t,e){this.current[t]=e}),G(this.el,this.name,this.style(this.current)),this.redraw()},t.transition=function(t){var e=this.values(t);this.tween=new H({current:this.current,values:e,duration:this.duration,delay:this.delay,ease:this.ease});var n,i={};for(n in this.current)i[n]=n in e?e[n]:this.current[n];this.active=!0,this.nextStyle=this.style(i)},t.fallback=function(t){var e=this.values(t);this.tween=new H({current:this.current,values:e,duration:this.duration,delay:this.delay,ease:this.ease,update:this.update,context:this})},t.update=function(){G(this.el,this.name,this.style(this.current))},t.style=function(t){var e,n=\"\";for(e in t)n+=e+\"(\"+t[e]+\") \";return n},t.values=function(t){var e,i={};return n.call(this,t,function(t,n,r){i[t]=n,void 0===this.current[t]&&(e=0,~t.indexOf(\"scale\")&&(e=1),this.current[t]=this.convert(e,r))}),i}}),D=f(function(e){function n(){var t,e,i,r=u.length;if(r)for(O(n),e=F(),t=r;t--;)(i=u[t])&&i.render(e)}var i={ease:l.ease[1],from:0,to:1};e.init=function(t){this.duration=t.duration||0,this.delay=t.delay||0;var e=t.ease||i.ease;l[e]&&(e=l[e][1]),\"function\"!=typeof e&&(e=i.ease),this.ease=e,this.update=t.update||a,this.complete=t.complete||a,this.context=t.context||this,this.name=t.name;var n=t.from,r=t.to;void 0===n&&(n=i.from),void 0===r&&(r=i.to),this.unit=t.unit||\"\",\"number\"==typeof n&&\"number\"==typeof r?(this.begin=n,this.change=r-n):this.format(r,n),this.value=this.begin+this.unit,this.start=F(),!1!==t.autoplay&&this.play()},e.play=function(){var t;this.active||(this.start||(this.start=F()),this.active=!0,t=this,1===u.push(t)&&O(n))},e.stop=function(){var e,n,i;this.active&&(this.active=!1,e=this,(i=t.inArray(e,u))>=0&&(n=u.slice(i+1),u.length=i,n.length&&(u=u.concat(n))))},e.render=function(t){var e,n=t-this.start;if(this.delay){if(n<=this.delay)return;n-=this.delay}if(n<this.duration){var i=this.ease(n,0,1,this.duration);return e=this.startRGB?function(t,e,n){return o(t[0]+n*(e[0]-t[0]),t[1]+n*(e[1]-t[1]),t[2]+n*(e[2]-t[2]))}(this.startRGB,this.endRGB,i):function(t){return Math.round(t*c)/c}(this.begin+i*this.change),this.value=e+this.unit,void this.update.call(this.context,this.value)}e=this.endHex||this.begin+this.change,this.value=e+this.unit,this.update.call(this.context,this.value),this.complete.call(this.context),this.destroy()},e.format=function(t,e){if(e+=\"\",\"#\"==(t+=\"\").charAt(0))return this.startRGB=r(e),this.endRGB=r(t),this.endHex=t,this.begin=0,void(this.change=1);if(!this.unit){var n=e.replace(m,\"\");n!==t.replace(m,\"\")&&s(\"tween\",e,t),this.unit=n}e=parseFloat(e),t=parseFloat(t),this.begin=this.value=e,this.change=t-e},e.destroy=function(){this.stop(),this.context=null,this.ease=this.update=this.complete=a};var u=[],c=1e3}),W=f(D,function(t){t.init=function(t){this.duration=t.duration||0,this.complete=t.complete||a,this.context=t.context,this.play()},t.render=function(t){t-this.start<this.duration||(this.complete.call(this.context),this.destroy())}}),H=f(D,function(t,e){t.init=function(t){var e,n;for(e in this.context=t.context,this.update=t.update,this.tweens=[],this.current=t.current,t.values)n=t.values[e],this.current[e]!==n&&this.tweens.push(new D({name:e,from:this.current[e],to:n,duration:t.duration,delay:t.delay,ease:t.ease,autoplay:!1}));this.play()},t.render=function(t){var e,n,i=!1;for(e=this.tweens.length;e--;)(n=this.tweens[e]).context&&(n.render(t),this.current[n.name]=n.value,i=!0);return i?void(this.update&&this.update.call(this.context)):this.destroy()},t.destroy=function(){if(e.destroy.call(this),this.tweens){var t;for(t=this.tweens.length;t--;)this.tweens[t].destroy();this.tweens=null,this.current=null}}}),X=e.config={debug:!1,defaultUnit:\"px\",defaultAngle:\"deg\",keepInherited:!1,hideBackface:!1,perspective:\"\",fallback:!q.transition,agentTests:[]};e.fallback=function(t){if(!q.transition)return X.fallback=!0;X.agentTests.push(\"(\"+t+\")\");var e=new RegExp(X.agentTests.join(\"|\"),\"i\");X.fallback=e.test(navigator.userAgent)},e.fallback(\"6.0.[2-5] Safari\"),e.tween=function(t){return new D(t)},e.delay=function(t,e,n){return new W({complete:e,duration:t,context:n})},t.fn.tram=function(t){return e.call(null,this,t)};var G=t.style,K=t.css,U={transform:q.transform&&q.transform.css},Y={color:[P,g],background:[P,g,\"background-color\"],\"outline-color\":[P,g],\"border-color\":[P,g],\"border-top-color\":[P,g],\"border-right-color\":[P,g],\"border-bottom-color\":[P,g],\"border-left-color\":[P,g],\"border-width\":[I,y],\"border-top-width\":[I,y],\"border-right-width\":[I,y],\"border-bottom-width\":[I,y],\"border-left-width\":[I,y],\"border-spacing\":[I,y],\"letter-spacing\":[I,y],margin:[I,y],\"margin-top\":[I,y],\"margin-right\":[I,y],\"margin-bottom\":[I,y],\"margin-left\":[I,y],padding:[I,y],\"padding-top\":[I,y],\"padding-right\":[I,y],\"padding-bottom\":[I,y],\"padding-left\":[I,y],\"outline-width\":[I,y],opacity:[I,b],top:[I,x],right:[I,x],bottom:[I,x],left:[I,x],\"font-size\":[I,x],\"text-indent\":[I,x],\"word-spacing\":[I,x],width:[I,x],\"min-width\":[I,x],\"max-width\":[I,x],height:[I,x],\"min-height\":[I,x],\"max-height\":[I,x],\"line-height\":[I,k],\"scroll-top\":[R,b,\"scrollTop\"],\"scroll-left\":[R,b,\"scrollLeft\"]},Z={};q.transform&&(Y.transform=[B],Z={x:[x,\"translateX\"],y:[x,\"translateY\"],rotate:[_],rotateX:[_],rotateY:[_],scale:[b],scaleX:[b],scaleY:[b],skew:[_],skewX:[_],skewY:[_]}),q.transform&&q.backface&&(Z.z=[x,\"translateZ\"],Z.rotateZ=[_],Z.scaleZ=[b],Z.perspective=[y]);var Q=/ms/,V=/s|\\./;return t.tram=e}(window.jQuery)},function(t,e,n){n(3),n(7),n(8),n(9),n(10),n(11),t.exports=n(12)},function(t,e,n){\"use strict\";var i=n(0);i.define(\"brand\",t.exports=function(t){var e,n={},r=document,o=t(\"html\"),a=t(\"body\"),s=\".w-webflow-badge\",u=window.location,c=/PhantomJS/i.test(navigator.userAgent),f=\"fullscreenchange webkitfullscreenchange mozfullscreenchange msfullscreenchange\";function l(){var n=r.fullScreen||r.mozFullScreen||r.webkitIsFullScreen||r.msFullscreenElement||Boolean(r.webkitFullscreenElement);t(e).attr(\"style\",n?\"display: none !important;\":\"\")}function h(){var t=a.children(s),n=t.length&&t.get(0)===e,r=i.env(\"editor\");n?r&&t.remove():(t.length&&t.remove(),r||a.append(e))}return n.ready=function(){var n,i,a,s=o.attr(\"data-wf-status\"),d=o.attr(\"data-wf-domain\")||\"\";/\\.webflow\\.io$/i.test(d)&&u.hostname!==d&&(s=!0),s&&!c&&(e=e||(n=t('<a class=\"w-webflow-badge\"></a>').attr(\"href\",\"https://webflow.com?utm_campaign=brandjs\"),i=t(\"<img>\").attr(\"src\",\"https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-icon.f67cd735e3.svg\").attr(\"alt\",\"\").css({marginRight:\"8px\",width:\"16px\"}),a=t(\"<img>\").attr(\"src\",\"https://d1otoma47x30pg.cloudfront.net/img/webflow-badge-text.6faa6a38cd.svg\").attr(\"alt\",\"Made in Webflow\"),n.append(i,a),n[0]),h(),setTimeout(h,500),t(r).off(f,l).on(f,l))},n})},function(t,e,n){\"use strict\";var i=window.$,r=n(1)&&i.tram;\n/*!\n * Webflow._ (aka) Underscore.js 1.6.0 (custom build)\n * _.each\n * _.map\n * _.find\n * _.filter\n * _.any\n * _.contains\n * _.delay\n * _.defer\n * _.throttle (webflow)\n * _.debounce\n * _.keys\n * _.has\n * _.now\n *\n * http://underscorejs.org\n * (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors\n * Underscore may be freely distributed under the MIT license.\n * @license MIT\n */\nt.exports=function(){var t={VERSION:\"1.6.0-Webflow\"},e={},n=Array.prototype,i=Object.prototype,o=Function.prototype,a=(n.push,n.slice),s=(n.concat,i.toString,i.hasOwnProperty),u=n.forEach,c=n.map,f=(n.reduce,n.reduceRight,n.filter),l=(n.every,n.some),h=n.indexOf,d=(n.lastIndexOf,Array.isArray,Object.keys),p=(o.bind,t.each=t.forEach=function(n,i,r){if(null==n)return n;if(u&&n.forEach===u)n.forEach(i,r);else if(n.length===+n.length){for(var o=0,a=n.length;o<a;o++)if(i.call(r,n[o],o,n)===e)return}else{var s=t.keys(n);for(o=0,a=s.length;o<a;o++)if(i.call(r,n[s[o]],s[o],n)===e)return}return n});t.map=t.collect=function(t,e,n){var i=[];return null==t?i:c&&t.map===c?t.map(e,n):(p(t,function(t,r,o){i.push(e.call(n,t,r,o))}),i)},t.find=t.detect=function(t,e,n){var i;return v(t,function(t,r,o){if(e.call(n,t,r,o))return i=t,!0}),i},t.filter=t.select=function(t,e,n){var i=[];return null==t?i:f&&t.filter===f?t.filter(e,n):(p(t,function(t,r,o){e.call(n,t,r,o)&&i.push(t)}),i)};var v=t.some=t.any=function(n,i,r){i||(i=t.identity);var o=!1;return null==n?o:l&&n.some===l?n.some(i,r):(p(n,function(t,n,a){if(o||(o=i.call(r,t,n,a)))return e}),!!o)};t.contains=t.include=function(t,e){return null!=t&&(h&&t.indexOf===h?-1!=t.indexOf(e):v(t,function(t){return t===e}))},t.delay=function(t,e){var n=a.call(arguments,2);return setTimeout(function(){return t.apply(null,n)},e)},t.defer=function(e){return t.delay.apply(t,[e,1].concat(a.call(arguments,1)))},t.throttle=function(t){var e,n,i;return function(){e||(e=!0,n=arguments,i=this,r.frame(function(){e=!1,t.apply(i,n)}))}},t.debounce=function(e,n,i){var r,o,a,s,u,c=function c(){var f=t.now()-s;f<n?r=setTimeout(c,n-f):(r=null,i||(u=e.apply(a,o),a=o=null))};return function(){a=this,o=arguments,s=t.now();var f=i&&!r;return r||(r=setTimeout(c,n)),f&&(u=e.apply(a,o),a=o=null),u}},t.defaults=function(e){if(!t.isObject(e))return e;for(var n=1,i=arguments.length;n<i;n++){var r=arguments[n];for(var o in r)void 0===e[o]&&(e[o]=r[o])}return e},t.keys=function(e){if(!t.isObject(e))return[];if(d)return d(e);var n=[];for(var i in e)t.has(e,i)&&n.push(i);return n},t.has=function(t,e){return s.call(t,e)},t.isObject=function(t){return t===Object(t)},t.now=Date.now||function(){return(new Date).getTime()},t.templateSettings={evaluate:/<%([\\s\\S]+?)%>/g,interpolate:/<%=([\\s\\S]+?)%>/g,escape:/<%-([\\s\\S]+?)%>/g};var m=/(.)^/,w={\"'\":\"'\",\"\\\\\":\"\\\\\",\"\\r\":\"r\",\"\\n\":\"n\",\"\\u2028\":\"u2028\",\"\\u2029\":\"u2029\"},b=/\\\\|'|\\r|\\n|\\u2028|\\u2029/g,g=function(t){return\"\\\\\"+w[t]};return t.template=function(e,n,i){!n&&i&&(n=i),n=t.defaults({},n,t.templateSettings);var r=RegExp([(n.escape||m).source,(n.interpolate||m).source,(n.evaluate||m).source].join(\"|\")+\"|$\",\"g\"),o=0,a=\"__p+='\";e.replace(r,function(t,n,i,r,s){return a+=e.slice(o,s).replace(b,g),o=s+t.length,n?a+=\"'+\\n((__t=(\"+n+\"))==null?'':_.escape(__t))+\\n'\":i?a+=\"'+\\n((__t=(\"+i+\"))==null?'':__t)+\\n'\":r&&(a+=\"';\\n\"+r+\"\\n__p+='\"),t}),a+=\"';\\n\",n.variable||(a=\"with(obj||{}){\\n\"+a+\"}\\n\"),a=\"var __t,__p='',__j=Array.prototype.join,print=function(){__p+=__j.call(arguments,'');};\\n\"+a+\"return __p;\\n\";try{var s=new Function(n.variable||\"obj\",\"_\",a)}catch(t){throw t.source=a,t}var u=function(e){return s.call(this,e,t)},c=n.variable||\"obj\";return u.source=\"function(\"+c+\"){\\n\"+a+\"}\",u},t}()},function(t,e){t.exports=function(t){return t&&t.__esModule?t:{default:t}}},function(t,e){function n(t){return(n=\"function\"==typeof Symbol&&\"symbol\"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&\"function\"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?\"symbol\":typeof t})(t)}function i(e){return\"function\"==typeof Symbol&&\"symbol\"===n(Symbol.iterator)?t.exports=i=function(t){return n(t)}:t.exports=i=function(t){return t&&\"function\"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?\"symbol\":n(t)},i(e)}t.exports=i},function(t,e,n){\"use strict\";n(0).define(\"focus-visible\",t.exports=function(){function t(t){var e=!0,n=!1,i=null,r={text:!0,search:!0,url:!0,tel:!0,email:!0,password:!0,number:!0,date:!0,month:!0,week:!0,time:!0,datetime:!0,\"datetime-local\":!0};function o(t){return!!(t&&t!==document&&\"HTML\"!==t.nodeName&&\"BODY\"!==t.nodeName&&\"classList\"in t&&\"contains\"in t.classList)}function a(t){t.getAttribute(\"data-wf-focus-visible\")||t.setAttribute(\"data-wf-focus-visible\",\"true\")}function s(){e=!1}function u(){document.addEventListener(\"mousemove\",c),document.addEventListener(\"mousedown\",c),document.addEventListener(\"mouseup\",c),document.addEventListener(\"pointermove\",c),document.addEventListener(\"pointerdown\",c),document.addEventListener(\"pointerup\",c),document.addEventListener(\"touchmove\",c),document.addEventListener(\"touchstart\",c),document.addEventListener(\"touchend\",c)}function c(t){t.target.nodeName&&\"html\"===t.target.nodeName.toLowerCase()||(e=!1,document.removeEventListener(\"mousemove\",c),document.removeEventListener(\"mousedown\",c),document.removeEventListener(\"mouseup\",c),document.removeEventListener(\"pointermove\",c),document.removeEventListener(\"pointerdown\",c),document.removeEventListener(\"pointerup\",c),document.removeEventListener(\"touchmove\",c),document.removeEventListener(\"touchstart\",c),document.removeEventListener(\"touchend\",c))}document.addEventListener(\"keydown\",function(n){n.metaKey||n.altKey||n.ctrlKey||(o(t.activeElement)&&a(t.activeElement),e=!0)},!0),document.addEventListener(\"mousedown\",s,!0),document.addEventListener(\"pointerdown\",s,!0),document.addEventListener(\"touchstart\",s,!0),document.addEventListener(\"visibilitychange\",function(){\"hidden\"===document.visibilityState&&(n&&(e=!0),u())},!0),u(),t.addEventListener(\"focus\",function(t){var n,i,s;o(t.target)&&(e||(n=t.target,i=n.type,\"INPUT\"===(s=n.tagName)&&r[i]&&!n.readOnly||\"TEXTAREA\"===s&&!n.readOnly||n.isContentEditable))&&a(t.target)},!0),t.addEventListener(\"blur\",function(t){var e;o(t.target)&&t.target.hasAttribute(\"data-wf-focus-visible\")&&(n=!0,window.clearTimeout(i),i=window.setTimeout(function(){n=!1},100),(e=t.target).getAttribute(\"data-wf-focus-visible\")&&e.removeAttribute(\"data-wf-focus-visible\"))},!0)}return{ready:function(){if(\"undefined\"!=typeof document)try{document.querySelector(\":focus-visible\")}catch(e){t(document)}}}})},function(t,e,n){\"use strict\";n(0).define(\"focus-within\",t.exports=function(){function t(t){for(var e=[t],n=null;n=t.parentNode||t.host||t.defaultView;)e.push(n),t=n;return e}function e(t){\"function\"!=typeof t.getAttribute||t.getAttribute(\"data-wf-focus-within\")||t.setAttribute(\"data-wf-focus-within\",\"true\")}function n(t){\"function\"==typeof t.getAttribute&&t.getAttribute(\"data-wf-focus-within\")&&t.removeAttribute(\"data-wf-focus-within\")}return{ready:function(){if(\"undefined\"!=typeof document&&document.body.hasAttribute(\"data-wf-focus-within\"))try{document.querySelector(\":focus-within\")}catch(r){i=function(i){var r;r||(window.requestAnimationFrame(function(){r=!1,\"blur\"===i.type&&Array.prototype.slice.call(t(i.target)).forEach(n),\"focus\"===i.type&&Array.prototype.slice.call(t(i.target)).forEach(e)}),r=!0)},document.addEventListener(\"focus\",i,!0),document.addEventListener(\"blur\",i,!0),e(document.body)}var i}}})},function(t,e,n){\"use strict\";var i=n(0);i.define(\"focus\",t.exports=function(){var t=[],e=!1;function n(n){e&&(n.preventDefault(),n.stopPropagation(),n.stopImmediatePropagation(),t.unshift(n))}function r(n){(function(t){var e=t.target,n=e.tagName;return/^a$/i.test(n)&&null!=e.href||/^(button|textarea)$/i.test(n)&&!0!==e.disabled||/^input$/i.test(n)&&/^(button|reset|submit|radio|checkbox)$/i.test(e.type)&&!e.disabled||!/^(button|input|textarea|select|a)$/i.test(n)&&!Number.isNaN(Number.parseFloat(e.tabIndex))||/^audio$/i.test(n)||/^video$/i.test(n)&&!0===e.controls})(n)&&(e=!0,setTimeout(function(){for(e=!1,n.target.focus();t.length>0;){var i=t.pop();i.target.dispatchEvent(new MouseEvent(i.type,i))}},0))}return{ready:function(){\"undefined\"!=typeof document&&document.body.hasAttribute(\"data-wf-focus-within\")&&i.env.safari&&(document.addEventListener(\"mousedown\",r,!0),document.addEventListener(\"mouseup\",n,!0),document.addEventListener(\"click\",n,!0))}}})},function(t,e,n){\"use strict\";var i=n(0);i.define(\"links\",t.exports=function(t,e){var n,r,o,a={},s=t(window),u=i.env(),c=window.location,f=document.createElement(\"a\"),l=\"w--current\",h=/index\\.(html|php)$/,d=/\\/$/;function p(e){var i=n&&e.getAttribute(\"href-disabled\")||e.getAttribute(\"href\");if(f.href=i,!(i.indexOf(\":\")>=0)){var a=t(e);if(f.hash.length>1&&f.host+f.pathname===c.host+c.pathname){if(!/^#[a-zA-Z0-9\\-\\_]+$/.test(f.hash))return;var s=t(f.hash);s.length&&r.push({link:a,sec:s,active:!1})}else if(\"#\"!==i&&\"\"!==i){var u=f.href===c.href||i===o||h.test(i)&&d.test(o);m(a,l,u)}}}function v(){var t=s.scrollTop(),n=s.height();e.each(r,function(e){var i=e.link,r=e.sec,o=r.offset().top,a=r.outerHeight(),s=.5*n,u=r.is(\":visible\")&&o+a-s>=t&&o+s<=t+n;e.active!==u&&(e.active=u,m(i,l,u))})}function m(t,e,n){var i=t.hasClass(e);n&&i||(n||i)&&(n?t.addClass(e):t.removeClass(e))}return a.ready=a.design=a.preview=function(){n=u&&i.env(\"design\"),o=i.env(\"slug\")||c.pathname||\"\",i.scroll.off(v),r=[];for(var t=document.links,e=0;e<t.length;++e)p(t[e]);r.length&&(i.scroll.on(v),v())},a})},function(t,e,n){\"use strict\";var i=n(0);i.define(\"scroll\",t.exports=function(t){var e={WF_CLICK_EMPTY:\"click.wf-empty-link\",WF_CLICK_SCROLL:\"click.wf-scroll\"},n=window.location,r=function(){try{return Boolean(window.frameElement)}catch(t){return!0}}()?null:window.history,o=t(window),a=t(document),s=t(document.body),u=window.requestAnimationFrame||window.mozRequestAnimationFrame||window.webkitRequestAnimationFrame||function(t){window.setTimeout(t,15)},c=i.env(\"editor\")?\".w-editor-body\":\"body\",f=\"header, \"+c+\" > .header, \"+c+\" > .w-nav:not([data-no-scroll])\",l='a[href=\"#\"]',h='a[href*=\"#\"]:not(.w-tab-link):not('+l+\")\",d=document.createElement(\"style\");d.appendChild(document.createTextNode('.wf-force-outline-none[tabindex=\"-1\"]:focus{outline:none;}'));var p=/^#[a-zA-Z0-9][\\w:.-]*$/;var v=\"function\"==typeof window.matchMedia&&window.matchMedia(\"(prefers-reduced-motion: reduce)\");function m(t,e){var n;switch(e){case\"add\":(n=t.attr(\"tabindex\"))?t.attr(\"data-wf-tabindex-swap\",n):t.attr(\"tabindex\",\"-1\");break;case\"remove\":(n=t.attr(\"data-wf-tabindex-swap\"))?(t.attr(\"tabindex\",n),t.removeAttr(\"data-wf-tabindex-swap\")):t.removeAttr(\"tabindex\")}t.toggleClass(\"wf-force-outline-none\",\"add\"===e)}function w(e){var a=e.currentTarget;if(!(i.env(\"design\")||window.$.mobile&&/(?:^|\\s)ui-link(?:$|\\s)/.test(a.className))){var c,l=(c=a,p.test(c.hash)&&c.host+c.pathname===n.host+n.pathname?a.hash:\"\");if(\"\"!==l){var h=t(l);h.length&&(e&&(e.preventDefault(),e.stopPropagation()),function(t){if(n.hash!==t&&r&&r.pushState&&(!i.env.chrome||\"file:\"!==n.protocol)){var e=r.state&&r.state.hash;e!==t&&r.pushState({hash:t},\"\",t)}}(l),window.setTimeout(function(){!function(e,n){var i=o.scrollTop(),r=function(e){var n=t(f),i=\"fixed\"===n.css(\"position\")?n.outerHeight():0,r=e.offset().top-i;if(\"mid\"===e.data(\"scroll\")){var a=o.height()-i,s=e.outerHeight();s<a&&(r-=Math.round((a-s)/2))}return r}(e);if(i===r)return;var a=function(t,e,n){if(\"none\"===document.body.getAttribute(\"data-wf-scroll-motion\")||v.matches)return 0;var i=1;return s.add(t).each(function(t,e){var n=parseFloat(e.getAttribute(\"data-scroll-time\"));!isNaN(n)&&n>=0&&(i=n)}),(472.143*Math.log(Math.abs(e-n)+125)-2e3)*i}(e,i,r),c=Date.now();u(function t(){var e=Date.now()-c;window.scroll(0,function(t,e,n,i){return n>i?e:t+(e-t)*((r=n/i)<.5?4*r*r*r:(r-1)*(2*r-2)*(2*r-2)+1);var r}(i,r,e,a)),e<=a?u(t):\"function\"==typeof n&&n()})}(h,function(){m(h,\"add\"),h.get(0).focus({preventScroll:!0}),m(h,\"remove\")})},e?0:300))}}}return{ready:function(){var t=e.WF_CLICK_EMPTY,n=e.WF_CLICK_SCROLL;a.on(n,h,w),a.on(t,l,function(t){t.preventDefault()}),document.head.insertBefore(d,document.head.firstChild)}}})},function(t,e,n){\"use strict\";n(0).define(\"touch\",t.exports=function(t){var e={},n=window.getSelection;function i(e){var i,r,o=!1,a=!1,s=Math.min(Math.round(.04*window.innerWidth),40);function u(t){var e=t.touches;e&&e.length>1||(o=!0,e?(a=!0,i=e[0].clientX):i=t.clientX,r=i)}function c(e){if(o){if(a&&\"mousemove\"===e.type)return e.preventDefault(),void e.stopPropagation();var i=e.touches,u=i?i[0].clientX:e.clientX,c=u-r;r=u,Math.abs(c)>s&&n&&\"\"===String(n())&&(!function(e,n,i){var r=t.Event(e,{originalEvent:n});t(n.target).trigger(r,i)}(\"swipe\",e,{direction:c>0?\"right\":\"left\"}),l())}}function f(t){if(o)return o=!1,a&&\"mouseup\"===t.type?(t.preventDefault(),t.stopPropagation(),void(a=!1)):void 0}function l(){o=!1}e.addEventListener(\"touchstart\",u,!1),e.addEventListener(\"touchmove\",c,!1),e.addEventListener(\"touchend\",f,!1),e.addEventListener(\"touchcancel\",l,!1),e.addEventListener(\"mousedown\",u,!1),e.addEventListener(\"mousemove\",c,!1),e.addEventListener(\"mouseup\",f,!1),e.addEventListener(\"mouseout\",l,!1),this.destroy=function(){e.removeEventListener(\"touchstart\",u,!1),e.removeEventListener(\"touchmove\",c,!1),e.removeEventListener(\"touchend\",f,!1),e.removeEventListener(\"touchcancel\",l,!1),e.removeEventListener(\"mousedown\",u,!1),e.removeEventListener(\"mousemove\",c,!1),e.removeEventListener(\"mouseup\",f,!1),e.removeEventListener(\"mouseout\",l,!1),e=null}}return t.event.special.tap={bindType:\"click\",delegateType:\"click\"},e.init=function(e){return(e=\"string\"==typeof e?t(e).get(0):e)?new i(e):null},e.instance=e.init(document),e})}]);",
+    "siteJsFileName": "webflow.js",
+    "modernizr": "/* Modernizr 2.7.1 (Custom Build) | MIT & BSD\n * Build: http://modernizr.com/download/#-video-touch-shiv-cssclasses-teststyles-prefixes-cssclassprefix:w!mod!\n */\n;window.Modernizr=function(a,b,c){function w(a){j.cssText=a}function x(a,b){return w(m.join(a+\";\")+(b||\"\"))}function y(a,b){return typeof a===b}function z(a,b){return!!~(\"\"+a).indexOf(b)}function A(a,b,d){for(var e in a){var f=b[a[e]];if(f!==c)return d===!1?a[e]:y(f,\"function\")?f.bind(d||b):f}return!1}var d=\"2.7.1\",e={},f=!0,g=b.documentElement,h=\"modernizr\",i=b.createElement(h),j=i.style,k,l={}.toString,m=\" -webkit- -moz- -o- -ms- \".split(\" \"),n={},o={},p={},q=[],r=q.slice,s,t=function(a,c,d,e){var f,i,j,k,l=b.createElement(\"div\"),m=b.body,n=m||b.createElement(\"body\");if(parseInt(d,10))while(d--)j=b.createElement(\"div\"),j.id=e?e[d]:h+(d+1),l.appendChild(j);return f=[\"&#173;\",'<style id=\"s',h,'\">',a,\"</style>\"].join(\"\"),l.id=h,(m?l:n).innerHTML+=f,n.appendChild(l),m||(n.style.background=\"\",n.style.overflow=\"hidden\",k=g.style.overflow,g.style.overflow=\"hidden\",g.appendChild(n)),i=c(l,a),m?l.parentNode.removeChild(l):(n.parentNode.removeChild(n),g.style.overflow=k),!!i},u={}.hasOwnProperty,v;!y(u,\"undefined\")&&!y(u.call,\"undefined\")?v=function(a,b){return u.call(a,b)}:v=function(a,b){return b in a&&y(a.constructor.prototype[b],\"undefined\")},Function.prototype.bind||(Function.prototype.bind=function(b){var c=this;if(typeof c!=\"function\")throw new TypeError;var d=r.call(arguments,1),e=function(){if(this instanceof e){var a=function(){};a.prototype=c.prototype;var f=new a,g=c.apply(f,d.concat(r.call(arguments)));return Object(g)===g?g:f}return c.apply(b,d.concat(r.call(arguments)))};return e}),n.touch=function(){var c;return\"ontouchstart\"in a||a.DocumentTouch&&b instanceof DocumentTouch?c=!0:t([\"@media (\",m.join(\"touch-enabled),(\"),h,\")\",\"{#modernizr{top:9px;position:absolute}}\"].join(\"\"),function(a){c=a.offsetTop===9}),c},n.video=function(){var a=b.createElement(\"video\"),c=!1;try{if(c=!!a.canPlayType)c=new Boolean(c),c.ogg=a.canPlayType('video/ogg; codecs=\"theora\"').replace(/^no$/,\"\"),c.h264=a.canPlayType('video/mp4; codecs=\"avc1.42E01E\"').replace(/^no$/,\"\"),c.webm=a.canPlayType('video/webm; codecs=\"vp8, vorbis\"').replace(/^no$/,\"\")}catch(d){}return c};for(var B in n)v(n,B)&&(s=B.toLowerCase(),e[s]=n[B](),q.push((e[s]?\"\":\"no-\")+s));return e.addTest=function(a,b){if(typeof a==\"object\")for(var d in a)v(a,d)&&e.addTest(d,a[d]);else{a=a.toLowerCase();if(e[a]!==c)return e;b=typeof b==\"function\"?b():b,typeof f!=\"undefined\"&&f&&(g.className+=\" w-mod-\"+(b?\"\":\"no-\")+a),e[a]=b}return e},w(\"\"),i=k=null,function(a,b){function l(a,b){var c=a.createElement(\"p\"),d=a.getElementsByTagName(\"head\")[0]||a.documentElement;return c.innerHTML=\"x<style>\"+b+\"</style>\",d.insertBefore(c.lastChild,d.firstChild)}function m(){var a=s.elements;return typeof a==\"string\"?a.split(\" \"):a}function n(a){var b=j[a[h]];return b||(b={},i++,a[h]=i,j[i]=b),b}function o(a,c,d){c||(c=b);if(k)return c.createElement(a);d||(d=n(c));var g;return d.cache[a]?g=d.cache[a].cloneNode():f.test(a)?g=(d.cache[a]=d.createElem(a)).cloneNode():g=d.createElem(a),g.canHaveChildren&&!e.test(a)&&!g.tagUrn?d.frag.appendChild(g):g}function p(a,c){a||(a=b);if(k)return a.createDocumentFragment();c=c||n(a);var d=c.frag.cloneNode(),e=0,f=m(),g=f.length;for(;e<g;e++)d.createElement(f[e]);return d}function q(a,b){b.cache||(b.cache={},b.createElem=a.createElement,b.createFrag=a.createDocumentFragment,b.frag=b.createFrag()),a.createElement=function(c){return s.shivMethods?o(c,a,b):b.createElem(c)},a.createDocumentFragment=Function(\"h,f\",\"return function(){var n=f.cloneNode(),c=n.createElement;h.shivMethods&&(\"+m().join().replace(/[\\w\\-]+/g,function(a){return b.createElem(a),b.frag.createElement(a),'c(\"'+a+'\")'})+\");return n}\")(s,b.frag)}function r(a){a||(a=b);var c=n(a);return s.shivCSS&&!g&&!c.hasCSS&&(c.hasCSS=!!l(a,\"article,aside,dialog,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}mark{background:#FF0;color:#000}template{display:none}\")),k||q(a,c),a}var c=\"3.7.0\",d=a.html5||{},e=/^<|^(?:button|map|select|textarea|object|iframe|option|optgroup)$/i,f=/^(?:a|b|code|div|fieldset|h1|h2|h3|h4|h5|h6|i|label|li|ol|p|q|span|strong|style|table|tbody|td|th|tr|ul)$/i,g,h=\"_html5shiv\",i=0,j={},k;(function(){try{var a=b.createElement(\"a\");a.innerHTML=\"<xyz></xyz>\",g=\"hidden\"in a,k=a.childNodes.length==1||function(){b.createElement(\"a\");var a=b.createDocumentFragment();return typeof a.cloneNode==\"undefined\"||typeof a.createDocumentFragment==\"undefined\"||typeof a.createElement==\"undefined\"}()}catch(c){g=!0,k=!0}})();var s={elements:d.elements||\"abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output progress section summary template time video\",version:c,shivCSS:d.shivCSS!==!1,supportsUnknownElements:k,shivMethods:d.shivMethods!==!1,type:\"default\",shivDocument:r,createElement:o,createDocumentFragment:p};a.html5=s,r(b)}(this,b),e._version=d,e._prefixes=m,e.testStyles=t,g.className=g.className.replace(/(^|\\s)no-js(\\s|$)/,\"$1$2\")+(f?\" w-mod-js w-mod-\"+q.join(\" w-mod-\"):\"\"),e;}(this,this.document);\n/**\n * Custom tests\n */\nModernizr.addTest('ios', /(ipod|iphone|ipad)/i.test(navigator.userAgent));\n",
+    "hrefMap": {
+        "62e65ccdc95a77513f0ceb5c": "/"
+    },
+    "site": {
+        "faviconUrl": "https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico",
+        "webClipUrl": "https://daks2k3a4ib2z.cloudfront.net/img/webclip.png"
+    },
+    "pages": [
+        {
+            "page": {
+                "parent": null,
+                "type": "page",
+                "utilKey": null,
+                "domOps": 71,
+                "domCount": 74,
+                "ogImages": [],
+                "searchTitleCopied": true,
+                "searchDescriptionCopied": true,
+                "searchImageCopied": true,
+                "isMembersOnly": false,
+                "groupAccess": [],
+                "archived": false,
+                "draft": false,
+                "canBranch": true,
+                "_id": "62e65ccdc95a77513f0ceb5c",
+                "lastUpdated": "2022-08-02T00:52:31.924Z",
+                "title": "Home",
+                "site": "62e65ccdc95a777f4b0ceb5b",
+                "slug": null,
+                "createdOn": "2022-07-31T10:43:25.807Z",
+                "__v": 0
+            },
+            "html": "<!DOCTYPE html><!-- This site was created in Webflow. https://www.webflow.com --><!-- Last Published: Tue Aug 02 2022 01:07:14 GMT+0000 (Coordinated Universal Time) --><html data-wf-page=\"62e65ccdc95a77513f0ceb5c\" data-wf-site=\"62e65ccdc95a777f4b0ceb5b\"><head><meta charset=\"utf-8\"/><title>Garin Ali&#x27;s Exceptional Site</title><meta content=\"width=device-width, initial-scale=1\" name=\"viewport\"/><meta content=\"Webflow\" name=\"generator\"/><link href=\"css/normalize.css\" rel=\"stylesheet\" type=\"text/css\"/><link href=\"css/webflow.css\" rel=\"stylesheet\" type=\"text/css\"/><link href=\"css/garin-alis-exceptional-site.webflow.css\" rel=\"stylesheet\" type=\"text/css\"/><script src=\"https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js\" type=\"text/javascript\"></script><script type=\"text/javascript\">WebFont.load({  google: {    families: [\"Changa One:400,400italic\"]  }});</script><!--[if lt IE 9]><script src=\"https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js\" type=\"text/javascript\"></script><![endif]--><script type=\"text/javascript\">!function(o,c){var n=c.documentElement,t=\" w-mod-\";n.className+=t+\"js\",(\"ontouchstart\"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+\"touch\")}(window,document);</script><link href=\"images/favicon.ico\" rel=\"shortcut icon\" type=\"image/x-icon\"/><link href=\"images/webclip.png\" rel=\"apple-touch-icon\"/></head><body><div class=\"container w-container\"><div class=\"card\"><h3 class=\"heading\">Gradient Animation Tools For CSS</h3><p class=\"paragraph\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus,  Suspendisse varius enim in eros elementum tristique. Duis cursus, </p><div class=\"cardfooter\"><a href=\"#\" class=\"link-block w-inline-block\"><img src=\"https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e86adb78628e6332b08f86_GitHub-Mark-Light-32px.png\" loading=\"lazy\" alt=\"\"/></a><a href=\"#\" class=\"link-block w-inline-block\"><img src=\"https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e87147566931275793ba65_eye-fill.svg\" loading=\"lazy\" width=\"32\" height=\"32\" alt=\"\" class=\"liveicon\"/></a></div></div><div class=\"cardssection wf-section\"><div class=\"card\"><h3 class=\"heading\">Gradient Animation Tools For CSS</h3><p class=\"paragraph\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus,  Suspendisse varius enim in eros elementum tristique. Duis cursus, </p><div class=\"cardfooter\"><a href=\"#\" class=\"link-block w-inline-block\"><img src=\"https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e86adb78628e6332b08f86_GitHub-Mark-Light-32px.png\" loading=\"lazy\" alt=\"\"/></a><a href=\"#\" class=\"link-block w-inline-block\"><img src=\"https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e87147566931275793ba65_eye-fill.svg\" loading=\"lazy\" width=\"32\" height=\"32\" alt=\"\" class=\"liveicon\"/></a></div></div><div class=\"card\"><h3 class=\"heading\">Gradient Animation Tools For CSS</h3><p class=\"paragraph\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus,  Suspendisse varius enim in eros elementum tristique. Duis cursus, </p><div class=\"cardfooter\"><a href=\"#\" class=\"link-block w-inline-block\"><img src=\"https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e86adb78628e6332b08f86_GitHub-Mark-Light-32px.png\" loading=\"lazy\" alt=\"\"/></a><a href=\"#\" class=\"link-block w-inline-block\"><img src=\"https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e87147566931275793ba65_eye-fill.svg\" loading=\"lazy\" width=\"32\" height=\"32\" alt=\"\" class=\"liveicon\"/></a></div></div><div class=\"card\"><h3 class=\"heading\">Gradient Animation Tools For CSS</h3><p class=\"paragraph\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus,  Suspendisse varius enim in eros elementum tristique. Duis cursus, </p><div class=\"cardfooter\"><a href=\"#\" class=\"link-block w-inline-block\"><img src=\"https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e86adb78628e6332b08f86_GitHub-Mark-Light-32px.png\" loading=\"lazy\" alt=\"\"/></a><a href=\"#\" class=\"link-block w-inline-block\"><img src=\"https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e87147566931275793ba65_eye-fill.svg\" loading=\"lazy\" width=\"32\" height=\"32\" alt=\"\" class=\"liveicon\"/></a></div></div><div class=\"card\"><h3 class=\"heading\">Gradient Animation Tools For CSS</h3><p class=\"paragraph\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus,  Suspendisse varius enim in eros elementum tristique. Duis cursus, </p><div class=\"cardfooter\"><a href=\"#\" class=\"link-block w-inline-block\"><img src=\"https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e86adb78628e6332b08f86_GitHub-Mark-Light-32px.png\" loading=\"lazy\" alt=\"\"/></a><a href=\"#\" class=\"link-block w-inline-block\"><img src=\"https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e87147566931275793ba65_eye-fill.svg\" loading=\"lazy\" width=\"32\" height=\"32\" alt=\"\" class=\"liveicon\"/></a></div></div><div class=\"card\"><h3 class=\"heading\">Gradient Animation Tools For CSS</h3><p class=\"paragraph\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus,  Suspendisse varius enim in eros elementum tristique. Duis cursus, </p><div class=\"cardfooter\"><a href=\"#\" class=\"link-block w-inline-block\"><img src=\"https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e86adb78628e6332b08f86_GitHub-Mark-Light-32px.png\" loading=\"lazy\" alt=\"\"/></a><a href=\"#\" class=\"link-block w-inline-block\"><img src=\"https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e87147566931275793ba65_eye-fill.svg\" loading=\"lazy\" width=\"32\" height=\"32\" alt=\"\" class=\"liveicon\"/></a></div></div><div class=\"card\"><h3 class=\"heading\">Gradient Animation Tools For CSS</h3><p class=\"paragraph\">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus,  Suspendisse varius enim in eros elementum tristique. Duis cursus, </p><div class=\"cardfooter\"><a href=\"#\" class=\"link-block w-inline-block\"><img src=\"https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e86adb78628e6332b08f86_GitHub-Mark-Light-32px.png\" loading=\"lazy\" alt=\"\"/></a><a href=\"#\" class=\"link-block w-inline-block\"><img src=\"https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e87147566931275793ba65_eye-fill.svg\" loading=\"lazy\" width=\"32\" height=\"32\" alt=\"\" class=\"liveicon\"/></a></div></div></div></div><div class=\"wf-section\"></div><script src=\"https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=62e65ccdc95a777f4b0ceb5b\" type=\"text/javascript\" integrity=\"sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=\" crossorigin=\"anonymous\"></script><script src=\"js/webflow.js\" type=\"text/javascript\"></script><!--[if lte IE 9]><script src=\"//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js\"></script><![endif]--></body></html>",
+            "renderData": {
+                "page": {
+                    "_id": "62e65ccdc95a77513f0ceb5c",
+                    "slug": null,
+                    "utilKey": null,
+                    "createdOn": "2022-07-31T10:43:25.807Z",
+                    "ogImages": [],
+                    "searchTitleCopied": true,
+                    "searchDescriptionCopied": true,
+                    "searchImageCopied": true,
+                    "title": "Home",
+                    "draft": false
+                },
+                "site": {
+                    "_id": "62e65ccdc95a777f4b0ceb5b",
+                    "createdOn": "2022-07-31T10:43:25.799Z",
+                    "faviconUrl": "https://daks2k3a4ib2z.cloudfront.net/img/favicon.ico",
+                    "lastUpdated": "2022-08-02T00:56:47.367Z",
+                    "name": "Garin Ali's Exceptional Site",
+                    "timezone": "Asia/Dhaka",
+                    "version": 102,
+                    "webClipUrl": "https://daks2k3a4ib2z.cloudfront.net/img/webclip.png",
+                    "responsiveImages": true,
+                    "recaptchaRequired": false
+                },
+                "pageMap": {},
+                "hrefMap": {
+                    "62e65ccdc95a77513f0ceb5c": "/"
+                },
+                "assets": {
+                    "62e86adb78628e6332b08f86": {
+                        "variants": [],
+                        "cdnUrl": "https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e86adb78628e6332b08f86_GitHub-Mark-Light-32px.png",
+                        "width": 32
+                    },
+                    "62e87147566931275793ba65": {
+                        "variants": [],
+                        "cdnUrl": "https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e87147566931275793ba65_eye-fill.svg"
+                    }
+                },
+                "collectionMap": {},
+                "symbols": [],
+                "classMap": {
+                    "63a65b20-2d1b-c324-04d4-dd439761e9c7": "container",
+                    "52fd235a-3a7f-2895-396a-66de3d2d9a46": "section",
+                    "ca50f210-dc48-8928-3c41-9a53963374ed": "text-block",
+                    "071ce400-f1b2-ad69-b15f-e7818568b48f": "text-block-2",
+                    "54844ffd-6571-d1fa-1f22-e0aa7e89951e": "columns",
+                    "dd69b102-28e5-82a7-5d89-c03b9aa934f8": "list",
+                    "04dbf962-1cf4-d412-9507-c81caa7ee83c": "card",
+                    "d2a56456-0b92-7745-3391-551fe5f64f52": "b-card",
+                    "13fcd98c-284b-4063-e738-b4352c8d7164": "heading",
+                    "2ec59d3d-b2ed-9c6e-ab5f-8045fe3c6994": "paragraph",
+                    "1b4578ce-90f2-15d3-085c-4b49c4df3367": "cardiconlink",
+                    "6e1f6f05-cb1a-443d-a96e-abf4d52f1c2c": "cardfooter",
+                    "d3eae7e9-f801-6b7d-5d8d-a30b0d609dea": "liveicon",
+                    "1473e158-10fe-c0ac-7302-5e25a04217ef": "link-block",
+                    "4a72ed61-ac92-af88-f6b2-defed9a19f99": "link-block-2",
+                    "ab469df4-dd66-4b2c-dc81-74c1fdf62f81": "cardssection"
+                },
+                "styleData": {
+                    "macros": [],
+                    "appliedStylesMap": {}
+                },
+                "timestamp": "Tue Aug 02 2022 01:07:14 GMT+0000 (Coordinated Universal Time)",
+                "domNodes": [
+                    {
+                        "_id": "62e65ccdc95a775db10ceb5d",
+                        "type": "Body",
+                        "tag": "body",
+                        "classes": [],
+                        "children": [
+                            "3ebae6d2-b4c4-0847-6673-5655cadbc978",
+                            "fb5bdf9c-6536-d412-00b5-eacc48932c3e"
+                        ]
+                    },
+                    {
+                        "_id": "3ebae6d2-b4c4-0847-6673-5655cadbc978",
+                        "type": "Container",
+                        "tag": "div",
+                        "classes": [
+                            "63a65b20-2d1b-c324-04d4-dd439761e9c7"
+                        ],
+                        "children": [
+                            "b3254042-56e5-2f57-ce39-c25ddb7b2c30",
+                            "53d2a91d-d557-8950-ff32-00473ca22999"
+                        ],
+                        "data": {
+                            "tag": "div",
+                            "grid": {
+                                "type": "container"
+                            },
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            }
+                        }
+                    },
+                    {
+                        "_id": "b3254042-56e5-2f57-ce39-c25ddb7b2c30",
+                        "type": "Block",
+                        "tag": "div",
+                        "classes": [
+                            "04dbf962-1cf4-d412-9507-c81caa7ee83c"
+                        ],
+                        "children": [
+                            "d02e5880-8970-552d-0006-a1b133195790",
+                            "7d4cffc2-b7a5-40ca-1f0f-c42f349ab72d",
+                            "a33de3dd-2ee8-af93-5080-982fab92210a"
+                        ],
+                        "data": {
+                            "tag": "div",
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            },
+                            "text": false
+                        }
+                    },
+                    {
+                        "_id": "d02e5880-8970-552d-0006-a1b133195790",
+                        "type": "Heading",
+                        "tag": "h3",
+                        "classes": [
+                            "13fcd98c-284b-4063-e738-b4352c8d7164"
+                        ],
+                        "children": [
+                            "d02e5880-8970-552d-0006-a1b133195791"
+                        ],
+                        "data": {
+                            "tag": "h3",
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            }
+                        }
+                    },
+                    {
+                        "_id": "d02e5880-8970-552d-0006-a1b133195791",
+                        "text": true,
+                        "v": "Gradient Animation Tools For CSS"
+                    },
+                    {
+                        "_id": "7d4cffc2-b7a5-40ca-1f0f-c42f349ab72d",
+                        "type": "Paragraph",
+                        "tag": "p",
+                        "classes": [
+                            "2ec59d3d-b2ed-9c6e-ab5f-8045fe3c6994"
+                        ],
+                        "children": [
+                            "7d4cffc2-b7a5-40ca-1f0f-c42f349ab72e"
+                        ],
+                        "data": {
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            }
+                        }
+                    },
+                    {
+                        "_id": "7d4cffc2-b7a5-40ca-1f0f-c42f349ab72e",
+                        "text": true,
+                        "v": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus,  Suspendisse varius enim in eros elementum tristique. Duis cursus, "
+                    },
+                    {
+                        "_id": "a33de3dd-2ee8-af93-5080-982fab92210a",
+                        "type": "Block",
+                        "tag": "div",
+                        "classes": [
+                            "6e1f6f05-cb1a-443d-a96e-abf4d52f1c2c"
+                        ],
+                        "children": [
+                            "8e5ad978-1337-2535-3b3e-2effe1d4403f",
+                            "4c47c99d-d1b4-b125-e2b3-b3a8fbc049ba"
+                        ],
+                        "data": {
+                            "tag": "div"
+                        }
+                    },
+                    {
+                        "_id": "8e5ad978-1337-2535-3b3e-2effe1d4403f",
+                        "type": "Link",
+                        "tag": "a",
+                        "classes": [
+                            "1473e158-10fe-c0ac-7302-5e25a04217ef"
+                        ],
+                        "children": [
+                            "06c72677-83b8-56d5-21ad-c74fd4ee1922"
+                        ],
+                        "data": {
+                            "button": false,
+                            "block": "inline",
+                            "link": {
+                                "mode": "external",
+                                "url": "#"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "06c72677-83b8-56d5-21ad-c74fd4ee1922",
+                        "type": "Image",
+                        "tag": "img",
+                        "classes": [],
+                        "children": [],
+                        "data": {
+                            "attr": {
+                                "src": "https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e86adb78628e6332b08f86_GitHub-Mark-Light-32px.png",
+                                "loading": "lazy",
+                                "width": "auto",
+                                "height": "auto"
+                            },
+                            "img": {
+                                "id": "62e86adb78628e6332b08f86",
+                                "sizes": [
+                                    {
+                                        "max": 32,
+                                        "size": "100vw"
+                                    },
+                                    {
+                                        "max": 10000,
+                                        "size": "32px"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "_id": "4c47c99d-d1b4-b125-e2b3-b3a8fbc049ba",
+                        "type": "Link",
+                        "tag": "a",
+                        "classes": [
+                            "1473e158-10fe-c0ac-7302-5e25a04217ef"
+                        ],
+                        "children": [
+                            "ebb4402c-52a0-8f35-25cc-fb4f2faaf260"
+                        ],
+                        "data": {
+                            "button": false,
+                            "block": "inline",
+                            "link": {
+                                "mode": "external",
+                                "url": "#"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "ebb4402c-52a0-8f35-25cc-fb4f2faaf260",
+                        "type": "Image",
+                        "tag": "img",
+                        "classes": [
+                            "d3eae7e9-f801-6b7d-5d8d-a30b0d609dea"
+                        ],
+                        "children": [],
+                        "data": {
+                            "attr": {
+                                "src": "https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e87147566931275793ba65_eye-fill.svg",
+                                "loading": "lazy",
+                                "width": 32,
+                                "height": 32
+                            },
+                            "img": {
+                                "id": "62e87147566931275793ba65"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "53d2a91d-d557-8950-ff32-00473ca22999",
+                        "type": "Section",
+                        "tag": "div",
+                        "classes": [
+                            "ab469df4-dd66-4b2c-dc81-74c1fdf62f81"
+                        ],
+                        "children": [
+                            "47edad7f-8e56-60d5-a1c8-7bd994e14667",
+                            "0c09a5c4-3d3e-368b-4b0c-25e742321403",
+                            "e45d6a2b-8b00-fb51-2e8f-53ee0a482a5c",
+                            "70cbb9aa-219b-5620-d120-0c648dea9152",
+                            "7aa912df-bc79-120f-0cec-7316d21a687f",
+                            "82f667e4-5065-153f-fd32-527e54e7df5e"
+                        ],
+                        "data": {
+                            "grid": {
+                                "type": "section"
+                            },
+                            "tag": "div"
+                        }
+                    },
+                    {
+                        "_id": "47edad7f-8e56-60d5-a1c8-7bd994e14667",
+                        "type": "Block",
+                        "tag": "div",
+                        "classes": [
+                            "04dbf962-1cf4-d412-9507-c81caa7ee83c"
+                        ],
+                        "children": [
+                            "47edad7f-8e56-60d5-a1c8-7bd994e14668",
+                            "47edad7f-8e56-60d5-a1c8-7bd994e1466a",
+                            "47edad7f-8e56-60d5-a1c8-7bd994e1466c"
+                        ],
+                        "data": {
+                            "tag": "div",
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            },
+                            "text": false
+                        }
+                    },
+                    {
+                        "_id": "47edad7f-8e56-60d5-a1c8-7bd994e14668",
+                        "type": "Heading",
+                        "tag": "h3",
+                        "classes": [
+                            "13fcd98c-284b-4063-e738-b4352c8d7164"
+                        ],
+                        "children": [
+                            "47edad7f-8e56-60d5-a1c8-7bd994e14669"
+                        ],
+                        "data": {
+                            "tag": "h3",
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            }
+                        }
+                    },
+                    {
+                        "_id": "47edad7f-8e56-60d5-a1c8-7bd994e14669",
+                        "text": true,
+                        "v": "Gradient Animation Tools For CSS"
+                    },
+                    {
+                        "_id": "47edad7f-8e56-60d5-a1c8-7bd994e1466a",
+                        "type": "Paragraph",
+                        "tag": "p",
+                        "classes": [
+                            "2ec59d3d-b2ed-9c6e-ab5f-8045fe3c6994"
+                        ],
+                        "children": [
+                            "47edad7f-8e56-60d5-a1c8-7bd994e1466b"
+                        ],
+                        "data": {
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            }
+                        }
+                    },
+                    {
+                        "_id": "47edad7f-8e56-60d5-a1c8-7bd994e1466b",
+                        "text": true,
+                        "v": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus,  Suspendisse varius enim in eros elementum tristique. Duis cursus, "
+                    },
+                    {
+                        "_id": "47edad7f-8e56-60d5-a1c8-7bd994e1466c",
+                        "type": "Block",
+                        "tag": "div",
+                        "classes": [
+                            "6e1f6f05-cb1a-443d-a96e-abf4d52f1c2c"
+                        ],
+                        "children": [
+                            "47edad7f-8e56-60d5-a1c8-7bd994e1466d",
+                            "47edad7f-8e56-60d5-a1c8-7bd994e1466f"
+                        ],
+                        "data": {
+                            "tag": "div"
+                        }
+                    },
+                    {
+                        "_id": "47edad7f-8e56-60d5-a1c8-7bd994e1466d",
+                        "type": "Link",
+                        "tag": "a",
+                        "classes": [
+                            "1473e158-10fe-c0ac-7302-5e25a04217ef"
+                        ],
+                        "children": [
+                            "47edad7f-8e56-60d5-a1c8-7bd994e1466e"
+                        ],
+                        "data": {
+                            "button": false,
+                            "block": "inline",
+                            "link": {
+                                "mode": "external",
+                                "url": "#"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "47edad7f-8e56-60d5-a1c8-7bd994e1466e",
+                        "type": "Image",
+                        "tag": "img",
+                        "classes": [],
+                        "children": [],
+                        "data": {
+                            "attr": {
+                                "src": "https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e86adb78628e6332b08f86_GitHub-Mark-Light-32px.png",
+                                "loading": "lazy",
+                                "width": "auto",
+                                "height": "auto"
+                            },
+                            "img": {
+                                "id": "62e86adb78628e6332b08f86",
+                                "sizes": [
+                                    {
+                                        "max": 32,
+                                        "size": "100vw"
+                                    },
+                                    {
+                                        "max": 10000,
+                                        "size": "32px"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "_id": "47edad7f-8e56-60d5-a1c8-7bd994e1466f",
+                        "type": "Link",
+                        "tag": "a",
+                        "classes": [
+                            "1473e158-10fe-c0ac-7302-5e25a04217ef"
+                        ],
+                        "children": [
+                            "47edad7f-8e56-60d5-a1c8-7bd994e14670"
+                        ],
+                        "data": {
+                            "button": false,
+                            "block": "inline",
+                            "link": {
+                                "mode": "external",
+                                "url": "#"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "47edad7f-8e56-60d5-a1c8-7bd994e14670",
+                        "type": "Image",
+                        "tag": "img",
+                        "classes": [
+                            "d3eae7e9-f801-6b7d-5d8d-a30b0d609dea"
+                        ],
+                        "children": [],
+                        "data": {
+                            "attr": {
+                                "src": "https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e87147566931275793ba65_eye-fill.svg",
+                                "loading": "lazy",
+                                "width": 32,
+                                "height": 32
+                            },
+                            "img": {
+                                "id": "62e87147566931275793ba65"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "0c09a5c4-3d3e-368b-4b0c-25e742321403",
+                        "type": "Block",
+                        "tag": "div",
+                        "classes": [
+                            "04dbf962-1cf4-d412-9507-c81caa7ee83c"
+                        ],
+                        "children": [
+                            "0c09a5c4-3d3e-368b-4b0c-25e742321404",
+                            "0c09a5c4-3d3e-368b-4b0c-25e742321406",
+                            "0c09a5c4-3d3e-368b-4b0c-25e742321408"
+                        ],
+                        "data": {
+                            "tag": "div",
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            },
+                            "text": false
+                        }
+                    },
+                    {
+                        "_id": "0c09a5c4-3d3e-368b-4b0c-25e742321404",
+                        "type": "Heading",
+                        "tag": "h3",
+                        "classes": [
+                            "13fcd98c-284b-4063-e738-b4352c8d7164"
+                        ],
+                        "children": [
+                            "0c09a5c4-3d3e-368b-4b0c-25e742321405"
+                        ],
+                        "data": {
+                            "tag": "h3",
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            }
+                        }
+                    },
+                    {
+                        "_id": "0c09a5c4-3d3e-368b-4b0c-25e742321405",
+                        "text": true,
+                        "v": "Gradient Animation Tools For CSS"
+                    },
+                    {
+                        "_id": "0c09a5c4-3d3e-368b-4b0c-25e742321406",
+                        "type": "Paragraph",
+                        "tag": "p",
+                        "classes": [
+                            "2ec59d3d-b2ed-9c6e-ab5f-8045fe3c6994"
+                        ],
+                        "children": [
+                            "0c09a5c4-3d3e-368b-4b0c-25e742321407"
+                        ],
+                        "data": {
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            }
+                        }
+                    },
+                    {
+                        "_id": "0c09a5c4-3d3e-368b-4b0c-25e742321407",
+                        "text": true,
+                        "v": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus,  Suspendisse varius enim in eros elementum tristique. Duis cursus, "
+                    },
+                    {
+                        "_id": "0c09a5c4-3d3e-368b-4b0c-25e742321408",
+                        "type": "Block",
+                        "tag": "div",
+                        "classes": [
+                            "6e1f6f05-cb1a-443d-a96e-abf4d52f1c2c"
+                        ],
+                        "children": [
+                            "0c09a5c4-3d3e-368b-4b0c-25e742321409",
+                            "0c09a5c4-3d3e-368b-4b0c-25e74232140b"
+                        ],
+                        "data": {
+                            "tag": "div"
+                        }
+                    },
+                    {
+                        "_id": "0c09a5c4-3d3e-368b-4b0c-25e742321409",
+                        "type": "Link",
+                        "tag": "a",
+                        "classes": [
+                            "1473e158-10fe-c0ac-7302-5e25a04217ef"
+                        ],
+                        "children": [
+                            "0c09a5c4-3d3e-368b-4b0c-25e74232140a"
+                        ],
+                        "data": {
+                            "button": false,
+                            "block": "inline",
+                            "link": {
+                                "mode": "external",
+                                "url": "#"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "0c09a5c4-3d3e-368b-4b0c-25e74232140a",
+                        "type": "Image",
+                        "tag": "img",
+                        "classes": [],
+                        "children": [],
+                        "data": {
+                            "attr": {
+                                "src": "https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e86adb78628e6332b08f86_GitHub-Mark-Light-32px.png",
+                                "loading": "lazy",
+                                "width": "auto",
+                                "height": "auto"
+                            },
+                            "img": {
+                                "id": "62e86adb78628e6332b08f86",
+                                "sizes": [
+                                    {
+                                        "max": 32,
+                                        "size": "100vw"
+                                    },
+                                    {
+                                        "max": 10000,
+                                        "size": "32px"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "_id": "0c09a5c4-3d3e-368b-4b0c-25e74232140b",
+                        "type": "Link",
+                        "tag": "a",
+                        "classes": [
+                            "1473e158-10fe-c0ac-7302-5e25a04217ef"
+                        ],
+                        "children": [
+                            "0c09a5c4-3d3e-368b-4b0c-25e74232140c"
+                        ],
+                        "data": {
+                            "button": false,
+                            "block": "inline",
+                            "link": {
+                                "mode": "external",
+                                "url": "#"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "0c09a5c4-3d3e-368b-4b0c-25e74232140c",
+                        "type": "Image",
+                        "tag": "img",
+                        "classes": [
+                            "d3eae7e9-f801-6b7d-5d8d-a30b0d609dea"
+                        ],
+                        "children": [],
+                        "data": {
+                            "attr": {
+                                "src": "https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e87147566931275793ba65_eye-fill.svg",
+                                "loading": "lazy",
+                                "width": 32,
+                                "height": 32
+                            },
+                            "img": {
+                                "id": "62e87147566931275793ba65"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "e45d6a2b-8b00-fb51-2e8f-53ee0a482a5c",
+                        "type": "Block",
+                        "tag": "div",
+                        "classes": [
+                            "04dbf962-1cf4-d412-9507-c81caa7ee83c"
+                        ],
+                        "children": [
+                            "e45d6a2b-8b00-fb51-2e8f-53ee0a482a5d",
+                            "e45d6a2b-8b00-fb51-2e8f-53ee0a482a5f",
+                            "e45d6a2b-8b00-fb51-2e8f-53ee0a482a61"
+                        ],
+                        "data": {
+                            "tag": "div",
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            },
+                            "text": false
+                        }
+                    },
+                    {
+                        "_id": "e45d6a2b-8b00-fb51-2e8f-53ee0a482a5d",
+                        "type": "Heading",
+                        "tag": "h3",
+                        "classes": [
+                            "13fcd98c-284b-4063-e738-b4352c8d7164"
+                        ],
+                        "children": [
+                            "e45d6a2b-8b00-fb51-2e8f-53ee0a482a5e"
+                        ],
+                        "data": {
+                            "tag": "h3",
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            }
+                        }
+                    },
+                    {
+                        "_id": "e45d6a2b-8b00-fb51-2e8f-53ee0a482a5e",
+                        "text": true,
+                        "v": "Gradient Animation Tools For CSS"
+                    },
+                    {
+                        "_id": "e45d6a2b-8b00-fb51-2e8f-53ee0a482a5f",
+                        "type": "Paragraph",
+                        "tag": "p",
+                        "classes": [
+                            "2ec59d3d-b2ed-9c6e-ab5f-8045fe3c6994"
+                        ],
+                        "children": [
+                            "e45d6a2b-8b00-fb51-2e8f-53ee0a482a60"
+                        ],
+                        "data": {
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            }
+                        }
+                    },
+                    {
+                        "_id": "e45d6a2b-8b00-fb51-2e8f-53ee0a482a60",
+                        "text": true,
+                        "v": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus,  Suspendisse varius enim in eros elementum tristique. Duis cursus, "
+                    },
+                    {
+                        "_id": "e45d6a2b-8b00-fb51-2e8f-53ee0a482a61",
+                        "type": "Block",
+                        "tag": "div",
+                        "classes": [
+                            "6e1f6f05-cb1a-443d-a96e-abf4d52f1c2c"
+                        ],
+                        "children": [
+                            "e45d6a2b-8b00-fb51-2e8f-53ee0a482a62",
+                            "e45d6a2b-8b00-fb51-2e8f-53ee0a482a64"
+                        ],
+                        "data": {
+                            "tag": "div"
+                        }
+                    },
+                    {
+                        "_id": "e45d6a2b-8b00-fb51-2e8f-53ee0a482a62",
+                        "type": "Link",
+                        "tag": "a",
+                        "classes": [
+                            "1473e158-10fe-c0ac-7302-5e25a04217ef"
+                        ],
+                        "children": [
+                            "e45d6a2b-8b00-fb51-2e8f-53ee0a482a63"
+                        ],
+                        "data": {
+                            "button": false,
+                            "block": "inline",
+                            "link": {
+                                "mode": "external",
+                                "url": "#"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "e45d6a2b-8b00-fb51-2e8f-53ee0a482a63",
+                        "type": "Image",
+                        "tag": "img",
+                        "classes": [],
+                        "children": [],
+                        "data": {
+                            "attr": {
+                                "src": "https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e86adb78628e6332b08f86_GitHub-Mark-Light-32px.png",
+                                "loading": "lazy",
+                                "width": "auto",
+                                "height": "auto"
+                            },
+                            "img": {
+                                "id": "62e86adb78628e6332b08f86",
+                                "sizes": [
+                                    {
+                                        "max": 32,
+                                        "size": "100vw"
+                                    },
+                                    {
+                                        "max": 10000,
+                                        "size": "32px"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "_id": "e45d6a2b-8b00-fb51-2e8f-53ee0a482a64",
+                        "type": "Link",
+                        "tag": "a",
+                        "classes": [
+                            "1473e158-10fe-c0ac-7302-5e25a04217ef"
+                        ],
+                        "children": [
+                            "e45d6a2b-8b00-fb51-2e8f-53ee0a482a65"
+                        ],
+                        "data": {
+                            "button": false,
+                            "block": "inline",
+                            "link": {
+                                "mode": "external",
+                                "url": "#"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "e45d6a2b-8b00-fb51-2e8f-53ee0a482a65",
+                        "type": "Image",
+                        "tag": "img",
+                        "classes": [
+                            "d3eae7e9-f801-6b7d-5d8d-a30b0d609dea"
+                        ],
+                        "children": [],
+                        "data": {
+                            "attr": {
+                                "src": "https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e87147566931275793ba65_eye-fill.svg",
+                                "loading": "lazy",
+                                "width": 32,
+                                "height": 32
+                            },
+                            "img": {
+                                "id": "62e87147566931275793ba65"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "70cbb9aa-219b-5620-d120-0c648dea9152",
+                        "type": "Block",
+                        "tag": "div",
+                        "classes": [
+                            "04dbf962-1cf4-d412-9507-c81caa7ee83c"
+                        ],
+                        "children": [
+                            "70cbb9aa-219b-5620-d120-0c648dea9153",
+                            "70cbb9aa-219b-5620-d120-0c648dea9155",
+                            "70cbb9aa-219b-5620-d120-0c648dea9157"
+                        ],
+                        "data": {
+                            "tag": "div",
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            },
+                            "text": false
+                        }
+                    },
+                    {
+                        "_id": "70cbb9aa-219b-5620-d120-0c648dea9153",
+                        "type": "Heading",
+                        "tag": "h3",
+                        "classes": [
+                            "13fcd98c-284b-4063-e738-b4352c8d7164"
+                        ],
+                        "children": [
+                            "70cbb9aa-219b-5620-d120-0c648dea9154"
+                        ],
+                        "data": {
+                            "tag": "h3",
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            }
+                        }
+                    },
+                    {
+                        "_id": "70cbb9aa-219b-5620-d120-0c648dea9154",
+                        "text": true,
+                        "v": "Gradient Animation Tools For CSS"
+                    },
+                    {
+                        "_id": "70cbb9aa-219b-5620-d120-0c648dea9155",
+                        "type": "Paragraph",
+                        "tag": "p",
+                        "classes": [
+                            "2ec59d3d-b2ed-9c6e-ab5f-8045fe3c6994"
+                        ],
+                        "children": [
+                            "70cbb9aa-219b-5620-d120-0c648dea9156"
+                        ],
+                        "data": {
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            }
+                        }
+                    },
+                    {
+                        "_id": "70cbb9aa-219b-5620-d120-0c648dea9156",
+                        "text": true,
+                        "v": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus,  Suspendisse varius enim in eros elementum tristique. Duis cursus, "
+                    },
+                    {
+                        "_id": "70cbb9aa-219b-5620-d120-0c648dea9157",
+                        "type": "Block",
+                        "tag": "div",
+                        "classes": [
+                            "6e1f6f05-cb1a-443d-a96e-abf4d52f1c2c"
+                        ],
+                        "children": [
+                            "70cbb9aa-219b-5620-d120-0c648dea9158",
+                            "70cbb9aa-219b-5620-d120-0c648dea915a"
+                        ],
+                        "data": {
+                            "tag": "div"
+                        }
+                    },
+                    {
+                        "_id": "70cbb9aa-219b-5620-d120-0c648dea9158",
+                        "type": "Link",
+                        "tag": "a",
+                        "classes": [
+                            "1473e158-10fe-c0ac-7302-5e25a04217ef"
+                        ],
+                        "children": [
+                            "70cbb9aa-219b-5620-d120-0c648dea9159"
+                        ],
+                        "data": {
+                            "button": false,
+                            "block": "inline",
+                            "link": {
+                                "mode": "external",
+                                "url": "#"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "70cbb9aa-219b-5620-d120-0c648dea9159",
+                        "type": "Image",
+                        "tag": "img",
+                        "classes": [],
+                        "children": [],
+                        "data": {
+                            "attr": {
+                                "src": "https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e86adb78628e6332b08f86_GitHub-Mark-Light-32px.png",
+                                "loading": "lazy",
+                                "width": "auto",
+                                "height": "auto"
+                            },
+                            "img": {
+                                "id": "62e86adb78628e6332b08f86",
+                                "sizes": [
+                                    {
+                                        "max": 32,
+                                        "size": "100vw"
+                                    },
+                                    {
+                                        "max": 10000,
+                                        "size": "32px"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "_id": "70cbb9aa-219b-5620-d120-0c648dea915a",
+                        "type": "Link",
+                        "tag": "a",
+                        "classes": [
+                            "1473e158-10fe-c0ac-7302-5e25a04217ef"
+                        ],
+                        "children": [
+                            "70cbb9aa-219b-5620-d120-0c648dea915b"
+                        ],
+                        "data": {
+                            "button": false,
+                            "block": "inline",
+                            "link": {
+                                "mode": "external",
+                                "url": "#"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "70cbb9aa-219b-5620-d120-0c648dea915b",
+                        "type": "Image",
+                        "tag": "img",
+                        "classes": [
+                            "d3eae7e9-f801-6b7d-5d8d-a30b0d609dea"
+                        ],
+                        "children": [],
+                        "data": {
+                            "attr": {
+                                "src": "https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e87147566931275793ba65_eye-fill.svg",
+                                "loading": "lazy",
+                                "width": 32,
+                                "height": 32
+                            },
+                            "img": {
+                                "id": "62e87147566931275793ba65"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "7aa912df-bc79-120f-0cec-7316d21a687f",
+                        "type": "Block",
+                        "tag": "div",
+                        "classes": [
+                            "04dbf962-1cf4-d412-9507-c81caa7ee83c"
+                        ],
+                        "children": [
+                            "7aa912df-bc79-120f-0cec-7316d21a6880",
+                            "7aa912df-bc79-120f-0cec-7316d21a6882",
+                            "7aa912df-bc79-120f-0cec-7316d21a6884"
+                        ],
+                        "data": {
+                            "tag": "div",
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            },
+                            "text": false
+                        }
+                    },
+                    {
+                        "_id": "7aa912df-bc79-120f-0cec-7316d21a6880",
+                        "type": "Heading",
+                        "tag": "h3",
+                        "classes": [
+                            "13fcd98c-284b-4063-e738-b4352c8d7164"
+                        ],
+                        "children": [
+                            "7aa912df-bc79-120f-0cec-7316d21a6881"
+                        ],
+                        "data": {
+                            "tag": "h3",
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            }
+                        }
+                    },
+                    {
+                        "_id": "7aa912df-bc79-120f-0cec-7316d21a6881",
+                        "text": true,
+                        "v": "Gradient Animation Tools For CSS"
+                    },
+                    {
+                        "_id": "7aa912df-bc79-120f-0cec-7316d21a6882",
+                        "type": "Paragraph",
+                        "tag": "p",
+                        "classes": [
+                            "2ec59d3d-b2ed-9c6e-ab5f-8045fe3c6994"
+                        ],
+                        "children": [
+                            "7aa912df-bc79-120f-0cec-7316d21a6883"
+                        ],
+                        "data": {
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            }
+                        }
+                    },
+                    {
+                        "_id": "7aa912df-bc79-120f-0cec-7316d21a6883",
+                        "text": true,
+                        "v": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus,  Suspendisse varius enim in eros elementum tristique. Duis cursus, "
+                    },
+                    {
+                        "_id": "7aa912df-bc79-120f-0cec-7316d21a6884",
+                        "type": "Block",
+                        "tag": "div",
+                        "classes": [
+                            "6e1f6f05-cb1a-443d-a96e-abf4d52f1c2c"
+                        ],
+                        "children": [
+                            "7aa912df-bc79-120f-0cec-7316d21a6885",
+                            "7aa912df-bc79-120f-0cec-7316d21a6887"
+                        ],
+                        "data": {
+                            "tag": "div"
+                        }
+                    },
+                    {
+                        "_id": "7aa912df-bc79-120f-0cec-7316d21a6885",
+                        "type": "Link",
+                        "tag": "a",
+                        "classes": [
+                            "1473e158-10fe-c0ac-7302-5e25a04217ef"
+                        ],
+                        "children": [
+                            "7aa912df-bc79-120f-0cec-7316d21a6886"
+                        ],
+                        "data": {
+                            "button": false,
+                            "block": "inline",
+                            "link": {
+                                "mode": "external",
+                                "url": "#"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "7aa912df-bc79-120f-0cec-7316d21a6886",
+                        "type": "Image",
+                        "tag": "img",
+                        "classes": [],
+                        "children": [],
+                        "data": {
+                            "attr": {
+                                "src": "https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e86adb78628e6332b08f86_GitHub-Mark-Light-32px.png",
+                                "loading": "lazy",
+                                "width": "auto",
+                                "height": "auto"
+                            },
+                            "img": {
+                                "id": "62e86adb78628e6332b08f86",
+                                "sizes": [
+                                    {
+                                        "max": 32,
+                                        "size": "100vw"
+                                    },
+                                    {
+                                        "max": 10000,
+                                        "size": "32px"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "_id": "7aa912df-bc79-120f-0cec-7316d21a6887",
+                        "type": "Link",
+                        "tag": "a",
+                        "classes": [
+                            "1473e158-10fe-c0ac-7302-5e25a04217ef"
+                        ],
+                        "children": [
+                            "7aa912df-bc79-120f-0cec-7316d21a6888"
+                        ],
+                        "data": {
+                            "button": false,
+                            "block": "inline",
+                            "link": {
+                                "mode": "external",
+                                "url": "#"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "7aa912df-bc79-120f-0cec-7316d21a6888",
+                        "type": "Image",
+                        "tag": "img",
+                        "classes": [
+                            "d3eae7e9-f801-6b7d-5d8d-a30b0d609dea"
+                        ],
+                        "children": [],
+                        "data": {
+                            "attr": {
+                                "src": "https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e87147566931275793ba65_eye-fill.svg",
+                                "loading": "lazy",
+                                "width": 32,
+                                "height": 32
+                            },
+                            "img": {
+                                "id": "62e87147566931275793ba65"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "82f667e4-5065-153f-fd32-527e54e7df5e",
+                        "type": "Block",
+                        "tag": "div",
+                        "classes": [
+                            "04dbf962-1cf4-d412-9507-c81caa7ee83c"
+                        ],
+                        "children": [
+                            "82f667e4-5065-153f-fd32-527e54e7df5f",
+                            "82f667e4-5065-153f-fd32-527e54e7df61",
+                            "82f667e4-5065-153f-fd32-527e54e7df63"
+                        ],
+                        "data": {
+                            "tag": "div",
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            },
+                            "text": false
+                        }
+                    },
+                    {
+                        "_id": "82f667e4-5065-153f-fd32-527e54e7df5f",
+                        "type": "Heading",
+                        "tag": "h3",
+                        "classes": [
+                            "13fcd98c-284b-4063-e738-b4352c8d7164"
+                        ],
+                        "children": [
+                            "82f667e4-5065-153f-fd32-527e54e7df60"
+                        ],
+                        "data": {
+                            "tag": "h3",
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            }
+                        }
+                    },
+                    {
+                        "_id": "82f667e4-5065-153f-fd32-527e54e7df60",
+                        "text": true,
+                        "v": "Gradient Animation Tools For CSS"
+                    },
+                    {
+                        "_id": "82f667e4-5065-153f-fd32-527e54e7df61",
+                        "type": "Paragraph",
+                        "tag": "p",
+                        "classes": [
+                            "2ec59d3d-b2ed-9c6e-ab5f-8045fe3c6994"
+                        ],
+                        "children": [
+                            "82f667e4-5065-153f-fd32-527e54e7df62"
+                        ],
+                        "data": {
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            }
+                        }
+                    },
+                    {
+                        "_id": "82f667e4-5065-153f-fd32-527e54e7df62",
+                        "text": true,
+                        "v": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus,  Suspendisse varius enim in eros elementum tristique. Duis cursus, "
+                    },
+                    {
+                        "_id": "82f667e4-5065-153f-fd32-527e54e7df63",
+                        "type": "Block",
+                        "tag": "div",
+                        "classes": [
+                            "6e1f6f05-cb1a-443d-a96e-abf4d52f1c2c"
+                        ],
+                        "children": [
+                            "82f667e4-5065-153f-fd32-527e54e7df64",
+                            "82f667e4-5065-153f-fd32-527e54e7df66"
+                        ],
+                        "data": {
+                            "tag": "div"
+                        }
+                    },
+                    {
+                        "_id": "82f667e4-5065-153f-fd32-527e54e7df64",
+                        "type": "Link",
+                        "tag": "a",
+                        "classes": [
+                            "1473e158-10fe-c0ac-7302-5e25a04217ef"
+                        ],
+                        "children": [
+                            "82f667e4-5065-153f-fd32-527e54e7df65"
+                        ],
+                        "data": {
+                            "button": false,
+                            "block": "inline",
+                            "link": {
+                                "mode": "external",
+                                "url": "#"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "82f667e4-5065-153f-fd32-527e54e7df65",
+                        "type": "Image",
+                        "tag": "img",
+                        "classes": [],
+                        "children": [],
+                        "data": {
+                            "attr": {
+                                "src": "https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e86adb78628e6332b08f86_GitHub-Mark-Light-32px.png",
+                                "loading": "lazy",
+                                "width": "auto",
+                                "height": "auto"
+                            },
+                            "img": {
+                                "id": "62e86adb78628e6332b08f86",
+                                "sizes": [
+                                    {
+                                        "max": 32,
+                                        "size": "100vw"
+                                    },
+                                    {
+                                        "max": 10000,
+                                        "size": "32px"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "_id": "82f667e4-5065-153f-fd32-527e54e7df66",
+                        "type": "Link",
+                        "tag": "a",
+                        "classes": [
+                            "1473e158-10fe-c0ac-7302-5e25a04217ef"
+                        ],
+                        "children": [
+                            "82f667e4-5065-153f-fd32-527e54e7df67"
+                        ],
+                        "data": {
+                            "button": false,
+                            "block": "inline",
+                            "link": {
+                                "mode": "external",
+                                "url": "#"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "82f667e4-5065-153f-fd32-527e54e7df67",
+                        "type": "Image",
+                        "tag": "img",
+                        "classes": [
+                            "d3eae7e9-f801-6b7d-5d8d-a30b0d609dea"
+                        ],
+                        "children": [],
+                        "data": {
+                            "attr": {
+                                "src": "https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e87147566931275793ba65_eye-fill.svg",
+                                "loading": "lazy",
+                                "width": 32,
+                                "height": 32
+                            },
+                            "img": {
+                                "id": "62e87147566931275793ba65"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "fb5bdf9c-6536-d412-00b5-eacc48932c3e",
+                        "type": "Section",
+                        "tag": "div",
+                        "classes": [],
+                        "children": [],
+                        "data": {
+                            "grid": {
+                                "type": "section"
+                            },
+                            "tag": "div",
+                            "attr": {
+                                "id": ""
+                            },
+                            "search": {
+                                "exclude": false
+                            },
+                            "visibility": {
+                                "conditions": []
+                            }
+                        }
+                    }
+                ],
+                "html5shivUrl": "https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js",
+                "inlineHeadScript": "!function(o,c){var n=c.documentElement,t=\" w-mod-\";n.className+=t+\"js\",(\"ontouchstart\"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+\"touch\")}(window,document);",
+                "stylesheets": [
+                    "css/normalize.css",
+                    "css/webflow.css",
+                    "css/garin-alis-exceptional-site.webflow.css"
+                ],
+                "siteMeta": {
+                    "_id": "62e878c2fd50b57ac84b6304",
+                    "facebookPixelLazyLoad": false,
+                    "googleGtagEnabled": false,
+                    "hideBranding": false,
+                    "otherFonts": [],
+                    "ogImages": []
+                },
+                "webflowJs": "js/webflow.js",
+                "googleFonts": [
+                    "Changa One:400,400italic"
+                ],
+                "publication": null,
+                "domain": "%%PUBLISH_URL_REPLACEMENT%%",
+                "surrogateKeys": [],
+                "hasDateFilters": false
+            },
+            "isDynamic": false,
+            "hasDynList": false,
+            "isDetailPage": false
+        }
+    ],
+    "images": [
+        {
+            "isHD": false,
+            "isFileUpload": false,
+            "_id": "62e86adb78628e6332b08f86",
+            "variants": [],
+            "origFileName": "GitHub-Mark-Light-32px.png",
+            "fileName": "62e86adb78628e6332b08f86_GitHub-Mark-Light-32px.png",
+            "fileHash": "1d4f0c2f8d16226b66004a7e454ccec5",
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/62e65ccdc95a777f4b0ceb5b/62e86adb78628e6332b08f86_GitHub-Mark-Light-32px.png",
+            "mimeType": "image/png",
+            "size": 1571,
+            "site": "62e65ccdc95a777f4b0ceb5b",
+            "createdOn": "2022-08-02T00:07:55.377Z",
+            "updatedOn": "2022-08-02T00:10:16.188Z",
+            "__v": 0,
+            "height": 32,
+            "width": 32,
+            "thumbUrl": "https://daks2k3a4ib2z.cloudfront.net/62e65ccdc95a777f4b0ceb5b/62e86adb78628e6332b08f86_GitHub-Mark-Light-32px.png",
+            "cdnUrl": "https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e86adb78628e6332b08f86_GitHub-Mark-Light-32px.png",
+            "keep": true
+        },
+        {
+            "isHD": false,
+            "isFileUpload": false,
+            "_id": "62e87147566931275793ba65",
+            "variants": [],
+            "origFileName": "eye-fill.svg",
+            "fileName": "62e87147566931275793ba65_eye-fill.svg",
+            "fileHash": "eef74e944568016585e5d559c4cade12",
+            "s3Url": "https://s3.amazonaws.com/webflow-prod-assets/62e65ccdc95a777f4b0ceb5b/62e87147566931275793ba65_eye-fill.svg",
+            "mimeType": "image/svg+xml",
+            "size": 298,
+            "site": "62e65ccdc95a777f4b0ceb5b",
+            "createdOn": "2022-08-02T00:35:19.458Z",
+            "updatedOn": "2022-08-02T00:35:19.458Z",
+            "__v": 0,
+            "cdnUrl": "https://uploads-ssl.webflow.com/62e65ccdc95a777f4b0ceb5b/62e87147566931275793ba65_eye-fill.svg",
+            "keep": true
+        }
+    ],
+    "documents": [],
+    "videos": []
+}
