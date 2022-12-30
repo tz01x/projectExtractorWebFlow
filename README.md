@@ -6,8 +6,7 @@ You can extract your Webflow project without paying a single penny. if you have 
 
 ## how to use 
 1. paste the json file content in ```webflow_json_obj.json``` file.
-2. run the ```webflow_page_extractor.js``` by ```node webflow_page_extractor.json``` it will create a 
-   html, css, js and asset file related to your webflow_project.
+2. run the ```main.js``` by ```node main.js``` it will create a html, css, js and asset file related to your web flow project.
    
 
 

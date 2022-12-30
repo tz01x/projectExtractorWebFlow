@@ -1,0 +1,23 @@
+{
+  "name": "project_extractor_webflow",
+  "version": "1.0.1",
+  "description": "You can extract your Webflow project without paying a single penny. if you have sound knowlage about devtool then you can file a .json file related to your webflow project after that just use this tool to extract all the files. The .json file can be found in network tab after you press export code button.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tz01x/projectExtractorWebFlow.git"
+  },
+  "keywords": [
+    "webflow",
+    "free"
+  ],
+  "author": "tumzied",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tz01x/projectExtractorWebFlow/issues"
+  },
+  "homepage": "https://github.com/tz01x/projectExtractorWebFlow#readme"
+}
